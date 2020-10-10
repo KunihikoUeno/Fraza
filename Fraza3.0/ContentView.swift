@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  Fraza3.0
-//
-//  Created by 上野邦彦 on 2020/10/10.
-//
-
 import SwiftUI
 
 struct ContentView: View {

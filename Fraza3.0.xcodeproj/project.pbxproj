@@ -63,7 +63,7 @@
 				05783DDA2531A0BE000F68FA /* ContentView.swift */,
 				05783DE12531A0BF000F68FA /* LaunchScreen.storyboard */,
 				05783DE42531A0BF000F68FA /* Info.plist */,
-				05783DEC2531A2F4000F68FA /* Assets */,
+				05783DEC2531A2F4000F68FA /* Resources */,
 				05783DDE2531A0BF000F68FA /* Preview Content */,
 			);
 			path = Fraza3.0;
@@ -77,13 +77,13 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		05783DEC2531A2F4000F68FA /* Assets */ = {
+		05783DEC2531A2F4000F68FA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 				05783DED2531A33C000F68FA /* AudioFiles */,
 				05783DDC2531A0BF000F68FA /* Assets.xcassets */,
 			);
-			path = Assets;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		05783DD72531A0BE000F68FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05783DD62531A0BE000F68FA /* AppDelegate.swift */; };
 		05783DD92531A0BE000F68FA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05783DD82531A0BE000F68FA /* SceneDelegate.swift */; };
-		05783DDB2531A0BE000F68FA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05783DDA2531A0BE000F68FA /* ContentView.swift */; };
 		05783DDD2531A0BF000F68FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05783DDC2531A0BF000F68FA /* Assets.xcassets */; };
 		05783DE02531A0BF000F68FA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05783DDF2531A0BF000F68FA /* Preview Assets.xcassets */; };
 		05783DEE2531A33C000F68FA /* AudioFiles in Resources */ = {isa = PBXBuildFile; fileRef = 05783DED2531A33C000F68FA /* AudioFiles */; };
@@ -24,7 +23,6 @@
 		05783DD32531A0BE000F68FA /* Fraza3.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fraza3.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05783DD62531A0BE000F68FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		05783DD82531A0BE000F68FA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		05783DDA2531A0BE000F68FA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		05783DDC2531A0BF000F68FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		05783DDF2531A0BF000F68FA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		05783DE42531A0BF000F68FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -68,7 +66,6 @@
 			children = (
 				05783DD62531A0BE000F68FA /* AppDelegate.swift */,
 				05783DD82531A0BE000F68FA /* SceneDelegate.swift */,
-				05783DDA2531A0BE000F68FA /* ContentView.swift */,
 				05AB097A2531ABE8007FC0B6 /* Root */,
 				05783DEC2531A2F4000F68FA /* Resources */,
 				05783DDE2531A0BF000F68FA /* Preview Content */,
@@ -212,7 +209,6 @@
 				05783DD72531A0BE000F68FA /* AppDelegate.swift in Sources */,
 				05783DD92531A0BE000F68FA /* SceneDelegate.swift in Sources */,
 				05AB09932531D4D3007FC0B6 /* FavoriteView.swift in Sources */,
-				05783DDB2531A0BE000F68FA /* ContentView.swift in Sources */,
 				05AB098D2531AE20007FC0B6 /* HomeView.swift in Sources */,
 				05AB09902531D4C8007FC0B6 /* SearchView.swift in Sources */,
 				05AB09872531AD87007FC0B6 /* TabBarView.swift in Sources */,

@@ -19,6 +19,7 @@
 		05AB09962531D4E7007FC0B6 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AB09952531D4E7007FC0B6 /* InfoView.swift */; };
 		05C876DA2531D96900715187 /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C876D92531D96900715187 /* UIColor+.swift */; };
 		05C876DD2531FAB000715187 /* Color+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C876DC2531FAB000715187 /* Color+.swift */; };
+		05C876E3253248E700715187 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C876E2253248E700715187 /* Data.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		05AB09952531D4E7007FC0B6 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 		05C876D92531D96900715187 /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
 		05C876DC2531FAB000715187 /* Color+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+.swift"; sourceTree = "<group>"; };
+		05C876E2253248E700715187 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +145,7 @@
 		05C876D72531D94B00715187 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				05C876E1253248D900715187 /* Model */,
 				05C876D82531D95600715187 /* Extensions */,
 			);
 			path = Common;
@@ -155,6 +158,14 @@
 				05C876DC2531FAB000715187 /* Color+.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		05C876E1253248D900715187 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				05C876E2253248E700715187 /* Data.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				05AB09962531D4E7007FC0B6 /* InfoView.swift in Sources */,
+				05C876E3253248E700715187 /* Data.swift in Sources */,
 				05C876DD2531FAB000715187 /* Color+.swift in Sources */,
 				05C876DA2531D96900715187 /* UIColor+.swift in Sources */,
 				05783DD72531A0BE000F68FA /* AppDelegate.swift in Sources */,

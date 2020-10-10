@@ -17,6 +17,7 @@
 		05AB09902531D4C8007FC0B6 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AB098F2531D4C8007FC0B6 /* SearchView.swift */; };
 		05AB09932531D4D3007FC0B6 /* FavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AB09922531D4D3007FC0B6 /* FavoriteView.swift */; };
 		05AB09962531D4E7007FC0B6 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AB09952531D4E7007FC0B6 /* InfoView.swift */; };
+		05C876DA2531D96900715187 /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C876D92531D96900715187 /* UIColor+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		05AB098F2531D4C8007FC0B6 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		05AB09922531D4D3007FC0B6 /* FavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteView.swift; sourceTree = "<group>"; };
 		05AB09952531D4E7007FC0B6 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		05C876D92531D96900715187 /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 			children = (
 				05783DD62531A0BE000F68FA /* AppDelegate.swift */,
 				05783DD82531A0BE000F68FA /* SceneDelegate.swift */,
+				05C876D72531D94B00715187 /* Common */,
 				05AB097A2531ABE8007FC0B6 /* Root */,
 				05783DEC2531A2F4000F68FA /* Resources */,
 				05783DDE2531A0BF000F68FA /* Preview Content */,
@@ -133,6 +136,22 @@
 				05AB09952531D4E7007FC0B6 /* InfoView.swift */,
 			);
 			path = Info;
+			sourceTree = "<group>";
+		};
+		05C876D72531D94B00715187 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				05C876D82531D95600715187 /* Extensions */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		05C876D82531D95600715187 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				05C876D92531D96900715187 /* UIColor+.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -206,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				05AB09962531D4E7007FC0B6 /* InfoView.swift in Sources */,
+				05C876DA2531D96900715187 /* UIColor+.swift in Sources */,
 				05783DD72531A0BE000F68FA /* AppDelegate.swift in Sources */,
 				05783DD92531A0BE000F68FA /* SceneDelegate.swift in Sources */,
 				05AB09932531D4D3007FC0B6 /* FavoriteView.swift in Sources */,

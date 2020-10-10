@@ -11,6 +11,17 @@ struct TabBarView: View {
         case info
     }
     
+    init() {
+        UITabBar.appearance().unselectedItemTintColor = UIColor(Color.customBlue)
+        UITabBar.appearance().isTranslucent = false
+        UITabBar.appearance().backgroundColor = .white
+        UITabBar.appearance().backgroundImage = UIImage(named: "tabbar-white")
+        UITabBar.appearance().shadowImage = UIImage(named: "tabbar-shadow")
+        if let font = UIFont(name: "HelveticaNeue-Light", size: 10) {
+            UITabBarItem.appearance().setTitleTextAttributes([NSAttributedString.Key.font: font], for: .normal)
+        }
+    }
+    
     var body: some View {
         TabView(selection: $selection) {
             HomeView()
@@ -42,7 +53,8 @@ struct TabBarView: View {
                 })
                 .tag(SelectedTab.info)
         }
-        .accentColor(.red)
+        .edgesIgnoringSafeArea(.top)
+        .accentColor(.customRed)
     }
     
 }

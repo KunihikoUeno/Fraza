@@ -54,8 +54,8 @@ class FilteredPhrase {
 
 var homeIcons = [HomeIcon]()
 
-func setupHomeIcons() {
-    homeIcons = [
+func createHomeIcons() -> [HomeIcon] {
+    return [
         HomeIcon(title: "Basic words", image: #imageLiteral(resourceName: "1-basic-words")),
         HomeIcon(title: "Introduction", image: #imageLiteral(resourceName: "2-introduction")),
         HomeIcon(title: "Don't know", image: #imageLiteral(resourceName: "3-dont-know")),

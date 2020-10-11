@@ -13,7 +13,7 @@ struct TabBarView: View {
     
     init() {
         UITabBar.appearance().unselectedItemTintColor = UIColor(Color.customBlue)
-        UITabBar.appearance().isTranslucent = false
+        UITabBar.appearance().isTranslucent = true
         UITabBar.appearance().backgroundColor = .white
         UITabBar.appearance().backgroundImage = UIImage(named: "tabbar-white")
         UITabBar.appearance().shadowImage = UIImage(named: "tabbar-shadow")

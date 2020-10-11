@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		053A783F25334175005CD831 /* CustomNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053A783E25334175005CD831 /* CustomNavigationView.swift */; };
+		053A784225338669005CD831 /* CustomeHostingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053A784125338669005CD831 /* CustomeHostingView.swift */; };
 		05783DD72531A0BE000F68FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05783DD62531A0BE000F68FA /* AppDelegate.swift */; };
 		05783DD92531A0BE000F68FA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05783DD82531A0BE000F68FA /* SceneDelegate.swift */; };
 		05783DDD2531A0BF000F68FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05783DDC2531A0BF000F68FA /* Assets.xcassets */; };
@@ -25,6 +26,7 @@
 
 /* Begin PBXFileReference section */
 		053A783E25334175005CD831 /* CustomNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationView.swift; sourceTree = "<group>"; };
+		053A784125338669005CD831 /* CustomeHostingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomeHostingView.swift; sourceTree = "<group>"; };
 		05783DD32531A0BE000F68FA /* Fraza3.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fraza3.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05783DD62531A0BE000F68FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		05783DD82531A0BE000F68FA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				053A783E25334175005CD831 /* CustomNavigationView.swift */,
+				053A784125338669005CD831 /* CustomeHostingView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -251,6 +254,7 @@
 			files = (
 				05AB09962531D4E7007FC0B6 /* InfoView.swift in Sources */,
 				05C876E3253248E700715187 /* Data.swift in Sources */,
+				053A784225338669005CD831 /* CustomeHostingView.swift in Sources */,
 				05C876DD2531FAB000715187 /* Color+.swift in Sources */,
 				05C876DA2531D96900715187 /* UIColor+.swift in Sources */,
 				05783DD72531A0BE000F68FA /* AppDelegate.swift in Sources */,

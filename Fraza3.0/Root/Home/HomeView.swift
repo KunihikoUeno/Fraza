@@ -21,30 +21,32 @@ struct HomeView: View {
     }
     
     var body: some View {
-        GeometryReader { geometry in
-            ScrollView {
-                VStack(spacing: 0) {
-                    ForEach(0..<numberOfRows) { row in
-                        HStack(spacing: 0) {
-                            ForEach(0..<numberOfColumns) { column in
-                                if let index = getIndex(for: categories, row, column, numberOfColumns) {
-                                    VStack(spacing: 0) {
-                                        Button(action: {
-                                            categorySelected(index)
-                                        }) {
-                                            Image(uiImage: categories[index].image)
-                                                .padding(.top, 5)
-                                                .padding(.bottom, 7)
-                                        }
-                                        Button("\(categories[index].title)") {
-                                            categorySelected(index)
-                                        }
+        CustomNavigationView(title: "Home") {
+            GeometryReader { geometry in
+                ScrollView {
+                    VStack(spacing: 0) {
+                        ForEach(0..<numberOfRows) { row in
+                            HStack(spacing: 0) {
+                                ForEach(0..<numberOfColumns) { column in
+                                    if let index = getIndex(for: categories, row, column, numberOfColumns) {
+                                        VStack(spacing: 0) {
+                                            Button(action: {
+                                                categorySelected(index)
+                                            }) {
+                                                Image(uiImage: categories[index].image)
+                                                    .padding(.top, 5)
+                                                    .padding(.bottom, 7)
+                                            }
+                                            Button("\(categories[index].title)") {
+                                                categorySelected(index)
+                                            }
                                             .font(.custom("HelveticaNeue-Light", size: 14))
                                             .foregroundColor(.textColor)
+                                        }
+                                        .frame(width: geometry.size.width / CGFloat(numberOfColumns), height: geometry.size.width / CGFloat(numberOfColumns))
+                                    } else {
+                                        Spacer()
                                     }
-                                    .frame(width: geometry.size.width / CGFloat(numberOfColumns), height: geometry.size.width / CGFloat(numberOfColumns))
-                                } else {
-                                    Spacer()
                                 }
                             }
                         }

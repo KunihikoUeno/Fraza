@@ -4,6 +4,7 @@ struct HomeView: View {
     
     private let categories = createHomeIcons()
     private let numberOfColumns = 3
+    @State private var navigationStarted: Bool = false
     
     private var numberOfRows: Int {
         categories.count % 3 > 0
@@ -17,7 +18,7 @@ struct HomeView: View {
     }
     
     var body: some View {
-        CustomNavigationView(title: "Home") {
+        CustomNavigationView(title: !navigationStarted ? "Home" : "Back") {
             GeometryReader { geometry in
                 ScrollView {
                     VStack(spacing: 0) {
@@ -26,7 +27,7 @@ struct HomeView: View {
                                 ForEach(0..<numberOfColumns) { column in
                                     if let index = getIndex(for: categories, row, column, numberOfColumns) {
                                         VStack(spacing: 0) {
-                                            NavigationLink(destination: CategoryView(categoryId: index)) {
+                                            NavigationLink(destination: CategoryView(categoryId: index), isActive: $navigationStarted) {
                                                 VStack(spacing: 0) {
                                                     Image(uiImage: categories[index].image)
                                                         .padding(.top, 5)

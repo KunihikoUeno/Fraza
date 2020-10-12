@@ -6,6 +6,7 @@ extension Color {
     static let customBlue = Color(hex: 0x3399DB)
     static let customGray = Color(hex: 0xE6E6E6)
     static let textColor = Color(hex: 0x666666)
+    static let listBorderColor = Color(hex: 0x4F4F4F)
     
     private init(hex rgbValue: UInt64) {
         let red = (rgbValue & 0xff0000) >> 16

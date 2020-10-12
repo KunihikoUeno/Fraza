@@ -54,5 +54,6 @@ extension UIColor {
     static let customBlue = UIColor(hex: 0x3399DB)
     static let customGray = UIColor(hex: 0xE6E6E6)
     static let textColor = UIColor(hex: 0x666666)
+    static let listBorderColor = UIColor(hex: 0x4F4F4F)
     
 }

@@ -16,10 +16,6 @@ struct HomeView: View {
         return index < items.count ? index : nil
     }
     
-    private func categorySelected(_ index: Int) {
-        print(index)
-    }
-    
     var body: some View {
         CustomNavigationView(title: "Home") {
             GeometryReader { geometry in
@@ -30,18 +26,16 @@ struct HomeView: View {
                                 ForEach(0..<numberOfColumns) { column in
                                     if let index = getIndex(for: categories, row, column, numberOfColumns) {
                                         VStack(spacing: 0) {
-                                            Button(action: {
-                                                categorySelected(index)
-                                            }) {
-                                                Image(uiImage: categories[index].image)
-                                                    .padding(.top, 5)
-                                                    .padding(.bottom, 7)
+                                            NavigationLink(destination: CategoryView(categoryId: index)) {
+                                                VStack(spacing: 0) {
+                                                    Image(uiImage: categories[index].image)
+                                                        .padding(.top, 5)
+                                                        .padding(.bottom, 7)
+                                                    Text("\(categories[index].title)")
+                                                        .font(.custom("HelveticaNeue-Light", size: 14))
+                                                        .foregroundColor(.textColor)
+                                                }
                                             }
-                                            Button("\(categories[index].title)") {
-                                                categorySelected(index)
-                                            }
-                                            .font(.custom("HelveticaNeue-Light", size: 14))
-                                            .foregroundColor(.textColor)
                                         }
                                         .frame(width: geometry.size.width / CGFloat(numberOfColumns), height: geometry.size.width / CGFloat(numberOfColumns))
                                     } else {

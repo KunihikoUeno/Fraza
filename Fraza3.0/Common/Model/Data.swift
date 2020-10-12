@@ -22,7 +22,7 @@ class PhraseBook {
     
 }
 
-class Phrase {
+class Phrase: Identifiable {
     
     let title: String
     let phrase: String

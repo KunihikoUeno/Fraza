@@ -7,6 +7,7 @@ extension Color {
     static let customGray = Color(hex: 0xE6E6E6)
     static let textColor = Color(hex: 0x666666)
     static let listTextColor = Color(hex: 0x4F4F4F)
+    static let phraseCellBackground = Color(hex: 0xE9F6FB)
     
     private init(hex rgbValue: UInt64) {
         let red = (rgbValue & 0xff0000) >> 16

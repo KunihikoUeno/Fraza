@@ -55,5 +55,6 @@ extension UIColor {
     static let customGray = UIColor(hex: 0xE6E6E6)
     static let textColor = UIColor(hex: 0x666666)
     static let listTextColor = UIColor(hex: 0x4F4F4F)
+    static let phraseCellBackground = UIColor(hex: 0xE9F6FB)
     
 }

@@ -20,6 +20,8 @@ struct PhraseSelectedView: View {
                         .padding(.bottom, 10)
                     Text("\(phrase.phrase)")
                 }
+                .font(.custom("HelveticaNeue-Light", size: 15))
+                .foregroundColor(.textColor)
                 .padding([.top, .bottom], 18)
                 Spacer()
                 VStack(alignment: .leading, spacing: 0) {

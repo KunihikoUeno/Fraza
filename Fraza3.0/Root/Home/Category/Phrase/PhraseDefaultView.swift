@@ -11,6 +11,8 @@ struct PhraseDefaultView: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 0) {
             Text("\(phrase.title)")
+                .font(.custom("HelveticaNeue-Light", size: 15))
+                .foregroundColor(.textColor)
                 .padding([.top, .bottom], 18)
                 .padding([.leading, .trailing], 15)
                 .listRowInsets(EdgeInsets())

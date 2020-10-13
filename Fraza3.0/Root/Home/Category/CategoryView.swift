@@ -3,10 +3,12 @@ import SwiftUI
 struct CategoryView: View {
     
     private let categoryId: Int
+    private let title: String
     @State var activeItem: Int?
     
-    init(categoryId: Int) {
+    init(categoryId: Int, title: String) {
         self.categoryId = categoryId
+        self.title = title
         setupPhraseData()
     }
     
@@ -15,7 +17,7 @@ struct CategoryView: View {
     }
     
     var body: some View {
-        CustomNavigationView(title: "Title") {
+        CustomNavigationView(title: title) {
             ScrollView {
                 VStack(spacing: 0) {
                     ForEach(0..<phraseData[categoryId].count) { index in
@@ -36,6 +38,6 @@ struct CategoryView: View {
 
 struct CategoryView_Previews: PreviewProvider {
     static var previews: some View {
-        CategoryView(categoryId: 2)
+        CategoryView(categoryId: 1, title: "Basic Words")
     }
 }

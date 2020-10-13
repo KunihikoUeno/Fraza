@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		051CC6702535FED500FAF2B5 /* AudioPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051CC66F2535FED500FAF2B5 /* AudioPlayerView.swift */; };
 		052ED2A12535F35100897FDB /* to-please-taxi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 052ED2282535F35100897FDB /* to-please-taxi.mp3 */; };
 		052ED2A22535F35100897FDB /* how-do-you-go-to-gum.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 052ED2292535F35100897FDB /* how-do-you-go-to-gum.mp3 */; };
 		052ED2A32535F35100897FDB /* how-much-is-it-to-travel.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 052ED22A2535F35100897FDB /* how-much-is-it-to-travel.mp3 */; };
@@ -126,6 +127,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		051CC66F2535FED500FAF2B5 /* AudioPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerView.swift; sourceTree = "<group>"; };
 		052ED2282535F35100897FDB /* to-please-taxi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "to-please-taxi.mp3"; sourceTree = "<group>"; };
 		052ED2292535F35100897FDB /* how-do-you-go-to-gum.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "how-do-you-go-to-gum.mp3"; sourceTree = "<group>"; };
 		052ED22A2535F35100897FDB /* how-much-is-it-to-travel.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "how-much-is-it-to-travel.mp3"; sourceTree = "<group>"; };
@@ -263,6 +265,7 @@
 		051CC6662535FE4400FAF2B5 /* AudioPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				051CC66F2535FED500FAF2B5 /* AudioPlayerView.swift */,
 			);
 			path = AudioPlayer;
 			sourceTree = "<group>";
@@ -869,6 +872,7 @@
 				05B4B5C2253388CC00A54D10 /* CategoryView.swift in Sources */,
 				05783DD72531A0BE000F68FA /* AppDelegate.swift in Sources */,
 				0552700C2534DDE600FB636A /* PhraseDefaultView.swift in Sources */,
+				051CC6702535FED500FAF2B5 /* AudioPlayerView.swift in Sources */,
 				05AB09932531D4D3007FC0B6 /* FavoriteView.swift in Sources */,
 				05AB098D2531AE20007FC0B6 /* HomeView.swift in Sources */,
 				053A783F25334175005CD831 /* CustomNavigationView.swift in Sources */,

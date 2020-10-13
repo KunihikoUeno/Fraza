@@ -25,13 +25,9 @@ struct PhraseSelectedView: View {
                 .padding([.top, .bottom], 18)
                 Spacer()
                 VStack(alignment: .leading, spacing: 0) {
-                    Button(action: {
-                        print("play button is tapped")
-                    }) {
-                        Image("play")
-                    }
-                    .padding(.leading, 1)
-                    .padding(.bottom, 10)
+                    AudioPlayerView(fileName: phrase.audio)
+                        .padding(.leading, 1)
+                        .padding(.bottom, 10)
                     Button(action: {
                         print("favorite button is tapped")
                     }) {

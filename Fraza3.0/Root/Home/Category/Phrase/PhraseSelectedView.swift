@@ -28,11 +28,7 @@ struct PhraseSelectedView: View {
                     AudioPlayerView(fileName: phrase.audio)
                         .padding(.leading, 1)
                         .padding(.bottom, 10)
-                    Button(action: {
-                        print("favorite button is tapped")
-                    }) {
-                        Image("grey-favorite")
-                    }
+                    BookmarkIconView(isBookmarked: false)
                 }
                 .padding([.top, .bottom], 18)
                 .padding(.trailing, 15)

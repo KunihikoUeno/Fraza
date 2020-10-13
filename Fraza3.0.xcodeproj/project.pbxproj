@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		051B8E152536289400C13A43 /* BookmarkIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051B8E142536289400C13A43 /* BookmarkIconView.swift */; };
 		051CC6702535FED500FAF2B5 /* AudioPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051CC66F2535FED500FAF2B5 /* AudioPlayerView.swift */; };
 		052ED2A12535F35100897FDB /* to-please-taxi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 052ED2282535F35100897FDB /* to-please-taxi.mp3 */; };
 		052ED2A22535F35100897FDB /* how-do-you-go-to-gum.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 052ED2292535F35100897FDB /* how-do-you-go-to-gum.mp3 */; };
@@ -127,6 +128,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		051B8E142536289400C13A43 /* BookmarkIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkIconView.swift; sourceTree = "<group>"; };
 		051CC66F2535FED500FAF2B5 /* AudioPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerView.swift; sourceTree = "<group>"; };
 		052ED2282535F35100897FDB /* to-please-taxi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "to-please-taxi.mp3"; sourceTree = "<group>"; };
 		052ED2292535F35100897FDB /* how-do-you-go-to-gum.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "how-do-you-go-to-gum.mp3"; sourceTree = "<group>"; };
@@ -262,6 +264,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		051B8E132536287900C13A43 /* BookmarkIcon */ = {
+			isa = PBXGroup;
+			children = (
+				051B8E142536289400C13A43 /* BookmarkIconView.swift */,
+			);
+			path = BookmarkIcon;
+			sourceTree = "<group>";
+		};
 		051CC6662535FE4400FAF2B5 /* AudioPlayer */ = {
 			isa = PBXGroup;
 			children = (
@@ -542,6 +552,7 @@
 		053A783D2533414C005CD831 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				051B8E132536287900C13A43 /* BookmarkIcon */,
 				051CC6662535FE4400FAF2B5 /* AudioPlayer */,
 				0568591225344E780065307A /* PhraseList */,
 				053A783E25334175005CD831 /* CustomNavigationView.swift */,
@@ -867,6 +878,7 @@
 				055270162534E18400FB636A /* PhraseSelectedView.swift in Sources */,
 				053A784225338669005CD831 /* CustomeHostingView.swift in Sources */,
 				05C876DD2531FAB000715187 /* Color+.swift in Sources */,
+				051B8E152536289400C13A43 /* BookmarkIconView.swift in Sources */,
 				05BA142E2534E5EE0091BA5C /* SceneDelegate.swift in Sources */,
 				05C876DA2531D96900715187 /* UIColor+.swift in Sources */,
 				05B4B5C2253388CC00A54D10 /* CategoryView.swift in Sources */,

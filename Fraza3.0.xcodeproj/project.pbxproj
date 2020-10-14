@@ -113,6 +113,7 @@
 		0552700C2534DDE600FB636A /* PhraseDefaultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0552700B2534DDE600FB636A /* PhraseDefaultView.swift */; };
 		055270162534E18400FB636A /* PhraseSelectedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055270152534E18400FB636A /* PhraseSelectedView.swift */; };
 		05663746253771D3006AC715 /* PhraseListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05663745253771D3006AC715 /* PhraseListView.swift */; };
+		0566374B253787B6006AC715 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0566374A253787B6006AC715 /* SearchBarView.swift */; };
 		05783DD72531A0BE000F68FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05783DD62531A0BE000F68FA /* AppDelegate.swift */; };
 		05783DDD2531A0BF000F68FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05783DDC2531A0BF000F68FA /* Assets.xcassets */; };
 		05783DE02531A0BF000F68FA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05783DDF2531A0BF000F68FA /* Preview Assets.xcassets */; };
@@ -238,6 +239,7 @@
 		0552700B2534DDE600FB636A /* PhraseDefaultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhraseDefaultView.swift; sourceTree = "<group>"; };
 		055270152534E18400FB636A /* PhraseSelectedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhraseSelectedView.swift; sourceTree = "<group>"; };
 		05663745253771D3006AC715 /* PhraseListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhraseListView.swift; sourceTree = "<group>"; };
+		0566374A253787B6006AC715 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 		05783DD32531A0BE000F68FA /* Fraza3.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fraza3.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05783DD62531A0BE000F68FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		05783DDC2531A0BF000F68FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -572,6 +574,14 @@
 			path = PhraseView;
 			sourceTree = "<group>";
 		};
+		05663749253787A6006AC715 /* SeachBar */ = {
+			isa = PBXGroup;
+			children = (
+				0566374A253787B6006AC715 /* SearchBarView.swift */,
+			);
+			path = SeachBar;
+			sourceTree = "<group>";
+		};
 		0568591225344E780065307A /* PhraseList */ = {
 			isa = PBXGroup;
 			children = (
@@ -661,6 +671,7 @@
 			isa = PBXGroup;
 			children = (
 				05AB098F2531D4C8007FC0B6 /* SearchView.swift */,
+				05663749253787A6006AC715 /* SeachBar */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -888,6 +899,7 @@
 				05B4B5C2253388CC00A54D10 /* CategoryView.swift in Sources */,
 				05783DD72531A0BE000F68FA /* AppDelegate.swift in Sources */,
 				0552700C2534DDE600FB636A /* PhraseDefaultView.swift in Sources */,
+				0566374B253787B6006AC715 /* SearchBarView.swift in Sources */,
 				051CC6702535FED500FAF2B5 /* AudioPlayerView.swift in Sources */,
 				05AB09932531D4D3007FC0B6 /* FavoriteView.swift in Sources */,
 				05AB098D2531AE20007FC0B6 /* HomeView.swift in Sources */,

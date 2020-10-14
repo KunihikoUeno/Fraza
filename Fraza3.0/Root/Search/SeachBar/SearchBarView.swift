@@ -33,7 +33,7 @@ struct SearchBarView: View {
             }
             .padding(.vertical, 3)
             .padding(.horizontal, 10)
-            .background(Color.white)
+            .background(Color.searchBarTextFieldBackground)
             .cornerRadius(3)
             .padding(.horizontal, 15)
         }

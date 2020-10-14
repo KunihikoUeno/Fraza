@@ -13,7 +13,7 @@ struct CategoryView: View {
     
     var body: some View {
         CustomNavigationView(title: title) {
-            PhraseListView(phraseData, categoryId: categoryId)
+            PhraseListView(phraseData[categoryId])
         }
     }
     

@@ -4,11 +4,13 @@ struct PhraseListView: View {
     
     let phraseData: [[Phrase]]
     let categoryId: Int?
+    @Binding var searchWord: String
     @State var activeItem: Int?
     
-    init(_ phraseData: [[Phrase]], categoryId: Int? = nil) {
+    init(_ phraseData: [[Phrase]], categoryId: Int? = nil, searchWord: Binding<String> = .constant("")) {
         self.phraseData = phraseData
         self.categoryId = categoryId
+        self._searchWord = searchWord
     }
     
     private func tapDetected(_ index: Int) {
@@ -29,8 +31,13 @@ struct PhraseListView: View {
                         }
                     }
                 } else {
-                    let newPhraseData = phraseData.flatMap { $0 }
-                    ForEach(0..<newPhraseData.count) { index in
+                    let flattenPhraseData = phraseData.flatMap { $0 }
+                    let newPhraseData = searchWord.count > 0
+                        ? flattenPhraseData.filter {
+                            $0.title.lowercased().contains(searchWord.lowercased())
+                        }
+                        : flattenPhraseData
+                    ForEach(0..<newPhraseData.count, id: \.self) { index in
                         let phrase = newPhraseData[index]
                         if let activeItem = activeItem, activeItem == index {
                             PhraseSelectedView(phrase)

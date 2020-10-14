@@ -112,6 +112,7 @@
 		053A784225338669005CD831 /* CustomeHostingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053A784125338669005CD831 /* CustomeHostingView.swift */; };
 		0552700C2534DDE600FB636A /* PhraseDefaultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0552700B2534DDE600FB636A /* PhraseDefaultView.swift */; };
 		055270162534E18400FB636A /* PhraseSelectedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055270152534E18400FB636A /* PhraseSelectedView.swift */; };
+		05663746253771D3006AC715 /* PhraseListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05663745253771D3006AC715 /* PhraseListView.swift */; };
 		05783DD72531A0BE000F68FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05783DD62531A0BE000F68FA /* AppDelegate.swift */; };
 		05783DDD2531A0BF000F68FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05783DDC2531A0BF000F68FA /* Assets.xcassets */; };
 		05783DE02531A0BF000F68FA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05783DDF2531A0BF000F68FA /* Preview Assets.xcassets */; };
@@ -236,6 +237,7 @@
 		053A784125338669005CD831 /* CustomeHostingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomeHostingView.swift; sourceTree = "<group>"; };
 		0552700B2534DDE600FB636A /* PhraseDefaultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhraseDefaultView.swift; sourceTree = "<group>"; };
 		055270152534E18400FB636A /* PhraseSelectedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhraseSelectedView.swift; sourceTree = "<group>"; };
+		05663745253771D3006AC715 /* PhraseListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhraseListView.swift; sourceTree = "<group>"; };
 		05783DD32531A0BE000F68FA /* Fraza3.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fraza3.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05783DD62531A0BE000F68FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		05783DDC2531A0BF000F68FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -561,18 +563,20 @@
 			path = Components;
 			sourceTree = "<group>";
 		};
-		0552700A2534DDD500FB636A /* Phrase */ = {
+		0552700A2534DDD500FB636A /* PhraseView */ = {
 			isa = PBXGroup;
 			children = (
 				0552700B2534DDE600FB636A /* PhraseDefaultView.swift */,
 				055270152534E18400FB636A /* PhraseSelectedView.swift */,
 			);
-			path = Phrase;
+			path = PhraseView;
 			sourceTree = "<group>";
 		};
 		0568591225344E780065307A /* PhraseList */ = {
 			isa = PBXGroup;
 			children = (
+				05663745253771D3006AC715 /* PhraseListView.swift */,
+				0552700A2534DDD500FB636A /* PhraseView */,
 			);
 			path = PhraseList;
 			sourceTree = "<group>";
@@ -673,7 +677,6 @@
 			isa = PBXGroup;
 			children = (
 				05B4B5C1253388CC00A54D10 /* CategoryView.swift */,
-				0552700A2534DDD500FB636A /* Phrase */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -876,6 +879,7 @@
 				05AB09962531D4E7007FC0B6 /* InfoView.swift in Sources */,
 				05C876E3253248E700715187 /* Data.swift in Sources */,
 				055270162534E18400FB636A /* PhraseSelectedView.swift in Sources */,
+				05663746253771D3006AC715 /* PhraseListView.swift in Sources */,
 				053A784225338669005CD831 /* CustomeHostingView.swift in Sources */,
 				05C876DD2531FAB000715187 /* Color+.swift in Sources */,
 				051B8E152536289400C13A43 /* BookmarkIconView.swift in Sources */,

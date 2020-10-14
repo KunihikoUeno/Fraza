@@ -2,7 +2,14 @@ import SwiftUI
 
 struct InfoView: View {
     var body: some View {
-        Text("Info")
+        CustomNavigationView(title: "Info") {
+            VStack(spacing: 0) {
+                Rectangle()
+                    .fill(Color.customGray)
+                    .frame(height: 20)
+                Spacer()
+            }
+        }
     }
 }
 

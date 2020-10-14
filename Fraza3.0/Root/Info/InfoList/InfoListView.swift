@@ -11,12 +11,17 @@ struct InfoListView: View {
     private func tapDetected(_ item: InfoListItem) {
         switch item {
         case .rate:
-            print("rate tapped")
+            rateAction()
         case .feedback:
             print("feedback tapped")
         case .contact:
             print("contact tapped")
         }
+    }
+    
+    private func rateAction() {
+        guard let url = URL(string : "itms-apps://itunes.apple.com/app/id1319113132") else { return }
+        UIApplication.shared.open(url, options: [:])
     }
     
     var body: some View {

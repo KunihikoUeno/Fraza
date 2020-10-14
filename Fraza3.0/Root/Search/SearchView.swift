@@ -41,8 +41,7 @@ struct SearchView: View {
                     .padding(.horizontal, 15)
                 }
                 .frame(height: 60)
-                Text("Search")
-                Spacer()
+                PhraseListView(phraseData)
             }
         }
     }

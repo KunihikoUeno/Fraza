@@ -7,6 +7,7 @@ struct InfoView: View {
                 Rectangle()
                     .fill(Color.customGray)
                     .frame(height: 20)
+                InfoListView()
                 Spacer()
             }
         }

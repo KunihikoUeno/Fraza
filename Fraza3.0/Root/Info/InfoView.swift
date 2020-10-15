@@ -8,6 +8,17 @@ struct InfoView: View {
                     .fill(Color.customGray)
                     .frame(height: 20)
                 InfoListView()
+                ZStack(alignment: .center) {
+                    Rectangle()
+                        .fill(Color.customGray)
+                        .frame(height: 32)
+                    Text("About this App")
+                        .font(.custom("HelveticaNeue-Light", size: 13))
+                        .foregroundColor(.textColor)
+                }
+                CreditView()
+                    .padding(.top, 30)
+                    .padding(.trailing, 3)
                 Spacer()
             }
         }

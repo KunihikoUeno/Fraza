@@ -4,7 +4,6 @@ struct InfoListView: View {
     
     enum InfoListItem: String, CaseIterable {
         case rate = "Rate this App"
-        case feedback = "Feedback & Help"
         case contact = "Contact us"
     }
     

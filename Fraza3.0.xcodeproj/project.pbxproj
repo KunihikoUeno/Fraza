@@ -284,6 +284,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		051B882D25388092004C7B0A /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				05C750B025385703008EB684 /* Category.swift */,
+				05C750AD253855F4008EB684 /* Categories.plist */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
 		051B8E132536287900C13A43 /* BookmarkIcon */ = {
 			isa = PBXGroup;
 			children = (
@@ -740,8 +749,7 @@
 		05C750AC253855AC008EB684 /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				05C750B025385703008EB684 /* Category.swift */,
-				05C750AD253855F4008EB684 /* Categories.plist */,
+				051B882D25388092004C7B0A /* Category */,
 			);
 			path = Data;
 			sourceTree = "<group>";

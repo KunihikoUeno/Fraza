@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		051B882B25387FDF004C7B0A /* CategoryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051B882A25387FDF004C7B0A /* CategoryManager.swift */; };
 		051B8E152536289400C13A43 /* BookmarkIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051B8E142536289400C13A43 /* BookmarkIconView.swift */; };
 		051CC6702535FED500FAF2B5 /* AudioPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051CC66F2535FED500FAF2B5 /* AudioPlayerView.swift */; };
 		0523C9132537AB7C00306C5D /* InfoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0523C9122537AB7C00306C5D /* InfoListView.swift */; };
@@ -137,6 +138,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		051B882A25387FDF004C7B0A /* CategoryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryManager.swift; sourceTree = "<group>"; };
 		051B8E142536289400C13A43 /* BookmarkIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkIconView.swift; sourceTree = "<group>"; };
 		051CC66F2535FED500FAF2B5 /* AudioPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerView.swift; sourceTree = "<group>"; };
 		0523C9122537AB7C00306C5D /* InfoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoListView.swift; sourceTree = "<group>"; };
@@ -768,6 +770,7 @@
 			children = (
 				05C750AC253855AC008EB684 /* Data */,
 				05C876E2253248E700715187 /* Data.swift */,
+				051B882A25387FDF004C7B0A /* CategoryManager.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -950,6 +953,7 @@
 				0523C9132537AB7C00306C5D /* InfoListView.swift in Sources */,
 				053A784225338669005CD831 /* CustomeHostingView.swift in Sources */,
 				05C876DD2531FAB000715187 /* Color+.swift in Sources */,
+				051B882B25387FDF004C7B0A /* CategoryManager.swift in Sources */,
 				051B8E152536289400C13A43 /* BookmarkIconView.swift in Sources */,
 				0523C9172537AB9400306C5D /* InfoListItemView.swift in Sources */,
 				05BA142E2534E5EE0091BA5C /* SceneDelegate.swift in Sources */,

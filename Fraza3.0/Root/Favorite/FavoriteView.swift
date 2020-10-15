@@ -13,7 +13,7 @@ struct FavoriteView: View {
     
     var body: some View {
         CustomNavigationView(title: "Favorite") {
-            if let phrases = phrases {
+            if let phrases = phrases, phrases.count > 0 {
                 PhraseListView(phrases)
             } else {
                 Text("Tap the heart icon\nunder the play button\nto make your favorite list.")

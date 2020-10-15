@@ -29,6 +29,9 @@ struct AudioPlayerView: View {
         }) {
             Image(isAudioPlaying ? "pause" : "play")
         }
+        .onDisappear {
+            self.audioPlayer?.pause()
+        }
     }
     
 }

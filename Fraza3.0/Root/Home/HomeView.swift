@@ -2,11 +2,22 @@ import SwiftUI
 
 struct HomeView: View {
     
-    private let categories = createHomeIcons()
+    private var categories: [Category] = []
     private let numberOfColumns = 3
     
+    init() {
+        do {
+            guard let filepath = Bundle.main.url(forResource: "Categories", withExtension: "plist") else { return }
+            let data = try Data(contentsOf: filepath)
+            categories = try PropertyListDecoder().decode([Category].self, from: data)
+        } catch {
+            fatalError("Error occured with Categories.plist: \(error.localizedDescription)")
+        }
+    }
+    
     private var numberOfRows: Int {
-        categories.count % 3 > 0
+//        guard let categories = categories else { return 0 }
+        return categories.count % 3 > 0
             ? categories.count / 3 + 1
             : categories.count / 3
     }
@@ -28,7 +39,7 @@ struct HomeView: View {
                                         VStack(spacing: 0) {
                                             NavigationLink(destination: CategoryView(categoryId: index, title: categories[index].title)) {
                                                 VStack(spacing: 0) {
-                                                    Image(uiImage: categories[index].image)
+                                                    Image(categories[index].image)
                                                         .padding(.top, 5)
                                                         .padding(.bottom, 7)
                                                     Text("\(categories[index].title)")

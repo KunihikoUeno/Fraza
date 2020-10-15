@@ -757,15 +757,6 @@
 			path = Credit;
 			sourceTree = "<group>";
 		};
-		05C750AC253855AC008EB684 /* Data */ = {
-			isa = PBXGroup;
-			children = (
-				051B882E25388135004C7B0A /* Phrase */,
-				051B882D25388092004C7B0A /* Category */,
-			);
-			path = Data;
-			sourceTree = "<group>";
-		};
 		05C876D72531D94B00715187 /* Common */ = {
 			isa = PBXGroup;
 			children = (
@@ -788,8 +779,9 @@
 		05C876E1253248D900715187 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				05C750AC253855AC008EB684 /* Data */,
 				051B882A25387FDF004C7B0A /* DataManager.swift */,
+				051B882E25388135004C7B0A /* Phrase */,
+				051B882D25388092004C7B0A /* Category */,
 			);
 			path = Model;
 			sourceTree = "<group>";

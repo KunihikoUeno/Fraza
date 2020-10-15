@@ -31,11 +31,11 @@ struct SearchBarView: View {
                     .padding(.leading, 5)
                 }
             }
-            .padding(.vertical, 3)
+            .padding(.vertical, 5)
             .padding(.horizontal, 10)
-            .background(Color.searchBarTextFieldBackground)
-            .cornerRadius(3)
-            .padding(.horizontal, 15)
+            .background(Color.white)
+            .cornerRadius(10)
+            .padding(.horizontal, 10)
         }
         .frame(height: 60)
     }

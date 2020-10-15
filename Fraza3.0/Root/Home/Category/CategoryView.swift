@@ -9,7 +9,7 @@ struct CategoryView: View {
     init(categoryId: Int, title: String) {
         self.categoryId = categoryId
         self.title = title
-        phrases = DataManager.shared.fetchData(type: Phrase.self, fileName: "Phrases")
+        phrases = DataManager.fetchData(type: Phrase.self, fileName: "Phrases")
             .filter { $0.categoryId == categoryId + 1 }
     }
     

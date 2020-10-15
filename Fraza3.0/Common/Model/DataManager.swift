@@ -2,11 +2,7 @@ import Foundation
 
 class DataManager {
     
-    static let shared = DataManager()
-    
-    private init() {}
-    
-    func fetchData<T: Decodable>(type: T.Type, fileName: String) -> [T] {
+    static func fetchData<T: Decodable>(type: T.Type, fileName: String) -> [T] {
         do {
             guard let filepath = Bundle.main.url(forResource: fileName, withExtension: "plist") else { return [] }
             let data = try Data(contentsOf: filepath)

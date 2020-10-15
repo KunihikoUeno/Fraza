@@ -2,7 +2,7 @@ import SwiftUI
 
 struct HomeView: View {
     
-    private var categories: [Category] = DataManager.shared.fetchData(type: Category.self, fileName: "Categories")
+    private var categories: [Category] = DataManager.fetchData(type: Category.self, fileName: "Categories")
     private let numberOfColumns = 3
     
     private var numberOfRows: Int {

@@ -13,7 +13,7 @@ struct InfoView: View {
                         .fill(Color.customGray)
                         .frame(height: 32)
                     Text("About this App")
-                        .font(.custom("HelveticaNeue-Light", size: 13))
+                        .font(.custom("HelveticaNeue", size: 13))
                         .foregroundColor(.textColor)
                 }
                 CreditView()

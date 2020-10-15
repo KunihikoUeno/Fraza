@@ -14,7 +14,7 @@ struct ContactView: View {
         CustomNavigationView(title: "Contact us") {
             VStack(spacing: 0) {
                 Text("We love to hear your opinions on our app!\nPlease send us your thoughts.")
-                    .font(.custom("HelveticaNeue-Light", size: 16))
+                    .font(.custom("HelveticaNeue", size: 16))
                     .foregroundColor(.textColor)
                     .multilineTextAlignment(.center)
                     .lineSpacing(6)

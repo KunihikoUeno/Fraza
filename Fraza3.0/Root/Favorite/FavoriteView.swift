@@ -4,7 +4,7 @@ struct FavoriteView: View {
     var body: some View {
         CustomNavigationView(title: "Favorite") {
             Text("Tap the heart icon\nunder the play button\nto make your favorite list.")
-                .font(.custom("HelveticaNeue-Light", size: 17))
+                .font(.custom("HelveticaNeue", size: 17))
                 .foregroundColor(.textColor)
                 .multilineTextAlignment(.center)
                 .lineSpacing(8)

@@ -414,7 +414,7 @@
             <key>categoryId</key>
             <integer>5</integer>
             <key>title</key>
-            <string>Shall we eat?.</string>
+            <string>Shall we eat?</string>
             <key>phrase</key>
             <string>Давайте пообедаем(afternoon) {поужинаем(evening), позавтракаем(morning)}?</string>
             <key>pronunciation</key>

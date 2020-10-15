@@ -1,0 +1,1435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <array>
+        <dict>
+            <key>id</key>
+            <integer>1</integer>
+            <key>categoryId</key>
+            <string>1</string>
+            <key>title</key>
+            <string>Yes/No</string>
+            <key>phrase</key>
+            <string>Да・Нет</string>
+            <key>pronunciation</key>
+            <string>Da・Niet</string>
+            <key>audio</key>
+            <string>yes-no</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>2</integer>
+            <key>categoryId</key>
+            <string>1</string>
+            <key>title</key>
+            <string>Thank you</string>
+            <key>phrase</key>
+            <string>Спасибо</string>
+            <key>pronunciation</key>
+            <string>Spasiba</string>
+            <key>audio</key>
+            <string>thank-you</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>3</integer>
+            <key>categoryId</key>
+            <string>1</string>
+            <key>title</key>
+            <string>You are welcome.</string>
+            <key>phrase</key>
+            <string>Пожалуйста</string>
+            <key>pronunciation</key>
+            <string>Pazhalusta</string>
+            <key>audio</key>
+            <string>you-are-welcome</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>4</integer>
+            <key>categoryId</key>
+            <string>1</string>
+            <key>title</key>
+            <string>Hello</string>
+            <key>phrase</key>
+            <string>Здравствуйте</string>
+            <key>pronunciation</key>
+            <string>Zdrastvuite</string>
+            <key>audio</key>
+            <string>hello</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>5</integer>
+            <key>categoryId</key>
+            <string>1</string>
+            <key>title</key>
+            <string>Good morning</string>
+            <key>phrase</key>
+            <string>Доброе утро</string>
+            <key>pronunciation</key>
+            <string>Dobrae utra</string>
+            <key>audio</key>
+            <string>good-morning</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>6</integer>
+            <key>categoryId</key>
+            <string>1</string>
+            <key>title</key>
+            <string>Good evening</string>
+            <key>phrase</key>
+            <string>Добрый вечер</string>
+            <key>pronunciation</key>
+            <string>Dobryi vecher</string>
+            <key>audio</key>
+            <string>good-evening</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>7</integer>
+            <key>categoryId</key>
+            <string>1</string>
+            <key>title</key>
+            <string>How are you?(formal)</string>
+            <key>phrase</key>
+            <string>Как у вас дела?</string>
+            <key>pronunciation</key>
+            <string>Kak u vas dela?</string>
+            <key>audio</key>
+            <string>how-are-you1</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>8</integer>
+            <key>categoryId</key>
+            <string>1</string>
+            <key>title</key>
+            <string>How are you?(informal)</string>
+            <key>phrase</key>
+            <string>Как дела?</string>
+            <key>pronunciation</key>
+            <string>Kak dela?</string>
+            <key>audio</key>
+            <string>how-are-you2</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>9</integer>
+            <key>categoryId</key>
+            <string>1</string>
+            <key>title</key>
+            <string>Nice to meet you.</string>
+            <key>phrase</key>
+            <string>Разрешите представиться.</string>
+            <key>pronunciation</key>
+            <string>Razrishiti pritstavitsa</string>
+            <key>audio</key>
+            <string>nice-to-meet-you</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>10</integer>
+            <key>categoryId</key>
+            <string>1</string>
+            <key>title</key>
+            <string>I am glad to meet you.</string>
+            <key>phrase</key>
+            <string>Я очень рад(рада) познакомиться.</string>
+            <key>pronunciation</key>
+            <string>Ya ochin` rad (rada) paznakomitsa</string>
+            <key>audio</key>
+            <string>i-am-glad</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>11</integer>
+            <key>categoryId</key>
+            <string>2</string>
+            <key>title</key>
+            <string>My name is Suzuki. My name is Petya.</string>
+            <key>phrase</key>
+            <string>Меня зовут Сузуки. Моё имя Петя.</string>
+            <key>pronunciation</key>
+            <string>Minya zavut Suzuki. Mayo imya Petya</string>
+            <key>audio</key>
+            <string>my-name-is</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>12</integer>
+            <key>categoryId</key>
+            <string>2</string>
+            <key>title</key>
+            <string>What is your name?</string>
+            <key>phrase</key>
+            <string>А как тебя(Вас) зовут?</string>
+            <key>pronunciation</key>
+            <string>A kak tibya(Vas) zavut?</string>
+            <key>audio</key>
+            <string>what-is-your-name</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>13</integer>
+            <key>categoryId</key>
+            <string>2</string>
+            <key>title</key>
+            <string>I am Japanese. I am Russian.</string>
+            <key>phrase</key>
+            <string>Я японец(японка).  Я русский (русская).</string>
+            <key>pronunciation</key>
+            <string>Ya iponits (iponka). Ya ruski(ruskaya).</string>
+            <key>audio</key>
+            <string>i-am-japanese</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>14</integer>
+            <key>categoryId</key>
+            <string>2</string>
+            <key>title</key>
+            <string>I am from Japan. I am from Moscow.</string>
+            <key>phrase</key>
+            <string>Я из Японии.  Я из Москвы.</string>
+            <key>pronunciation</key>
+            <string>Ya iz Iponii. Ya iz Maskvy.</string>
+            <key>audio</key>
+            <string>i-am-from-japan</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>15</integer>
+            <key>categoryId</key>
+            <string>2</string>
+            <key>title</key>
+            <string>I am 25 years old. I am 30 years old.</string>
+            <key>phrase</key>
+            <string>Мне 25 лет. Мне 30 лет.</string>
+            <key>pronunciation</key>
+            <string>Mne 25(dvatsat` pyat`) let. Mne 30(tritsat`) let.</string>
+            <key>audio</key>
+            <string>i-am-25</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>16</integer>
+            <key>categoryId</key>
+            <string>3</string>
+            <key>title</key>
+            <string>What is it?</string>
+            <key>phrase</key>
+            <string>Что Вы сказали? (Что?)</string>
+            <key>pronunciation</key>
+            <string>Shto vy skazali? (shto?)</string>
+            <key>audio</key>
+            <string>what-is-it</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>17</integer>
+            <key>categoryId</key>
+            <string>3</string>
+            <key>title</key>
+            <string>I don't understand</string>
+            <key>phrase</key>
+            <string>Я не понял(поняла).</string>
+            <key>pronunciation</key>
+            <string>Ya ni ponyal (panyala).</string>
+            <key>audio</key>
+            <string>i-dont-understand</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>18</integer>
+            <key>categoryId</key>
+            <string>3</string>
+            <key>title</key>
+            <string>Please speak slowly.</string>
+            <key>phrase</key>
+            <string>Говорите пожалуйста помедленнее.</string>
+            <key>pronunciation</key>
+            <string>Gavarite pazhalusta pamedlenei</string>
+            <key>audio</key>
+            <string>please-speak-slowly</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>19</integer>
+            <key>categoryId</key>
+            <string>3</string>
+            <key>title</key>
+            <string>I don't understand Russian.</string>
+            <key>phrase</key>
+            <string>Я не понимаю русский язык. (Я не говорю по-русски)</string>
+            <key>pronunciation</key>
+            <string>Ya ne panimayu russki izyk. (Ya ne gavaryu pa ruski)</string>
+            <key>audio</key>
+            <string>i-dont-understand-russian</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>20</integer>
+            <key>categoryId</key>
+            <string>4</string>
+            <key>title</key>
+            <string>0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10</string>
+            <key>phrase</key>
+            <string>ноль, один, два, три, четыре, пять, шесть, семь, восемь, девять, десять</string>
+            <key>pronunciation</key>
+            <string>nol`, adin, dva, tri, chityri, pyat`, shest`, sem`, vosim`, devit`, desit`</string>
+            <key>audio</key>
+            <string>0-10</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>21</integer>
+            <key>categoryId</key>
+            <string>4</string>
+            <key>title</key>
+            <string>11, 12, 13, 14, 15, 16, 17, 18, 19</string>
+            <key>phrase</key>
+            <string>одиннадцать, двенадцать , тринадцать, четырнадцать, пятнадцать, шестнадцать, семнадцать, восемнадцать, девятнадцать</string>
+            <key>pronunciation</key>
+            <string>adinatsat`, dvinatsat`, trinatsat`, chityrnatsat`, pitnatsat`, shisnatsat`, simnatsat`, vasimnatsat`, divyatnatsat`</string>
+            <key>audio</key>
+            <string>11-19</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>22</integer>
+            <key>categoryId</key>
+            <string>4</string>
+            <key>title</key>
+            <string>20, 30, 40, 50, 60, 70, 80, 90, 100</string>
+            <key>phrase</key>
+            <string>двадцать, тридцать, сорок, пятьдесят, шестьдесят, семьдесят, восемьдесят, девяносто, сто</string>
+            <key>pronunciation</key>
+            <string>dvatsat`, tritsat`, sorak, pisyat, shisyat, semdisyat, vosimdisyat, divinosta, sto</string>
+            <key>audio</key>
+            <string>20-100</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>23</integer>
+            <key>categoryId</key>
+            <string>4</string>
+            <key>title</key>
+            <string>200, 300, 400, 500, 600, 700, 800, 900, 1000</string>
+            <key>phrase</key>
+            <string>двести, триста, четыреста, пятьсот, шестьсот, семьсот, восемьсот, девятьсот, тысяча</string>
+            <key>pronunciation</key>
+            <string>dvesti, trista, chityrista, pitsot, shisot, simsot, vasimsot, divitsot, tysicha</string>
+            <key>audio</key>
+            <string>20-1000</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>24</integer>
+            <key>categoryId</key>
+            <string>4</string>
+            <key>title</key>
+            <string>18, 53, 119, 237, 904</string>
+            <key>phrase</key>
+            <string>восемнадцать, пятьдесят три, пятьдесят три, двести тридцать семь, девятьсот четыре</string>
+            <key>pronunciation</key>
+            <string>vasimnatsat`, pisyat tri, sto divitnatsat`, dvesti tritsat` sem`, vasimnatsat`</string>
+            <key>audio</key>
+            <string>other</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>25</integer>
+            <key>categoryId</key>
+            <string>5</string>
+            <key>title</key>
+            <string>Let's be friends.</string>
+            <key>phrase</key>
+            <string>Давайте познакомимся.</string>
+            <key>pronunciation</key>
+            <string>Davaiti paznakomimsya</string>
+            <key>audio</key>
+            <string>lets-be-friends</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>26</integer>
+            <key>categoryId</key>
+            <string>5</string>
+            <key>title</key>
+            <string>Are you a student?</string>
+            <key>phrase</key>
+            <string>Вы студент(студентка)?</string>
+            <key>pronunciation</key>
+            <string>Vy student(studentka)?</string>
+            <key>audio</key>
+            <string>are-you-a-student</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>27</integer>
+            <key>categoryId</key>
+            <string>5</string>
+            <key>title</key>
+            <string>What is your job?</string>
+            <key>phrase</key>
+            <string>Кем вы работаете?</string>
+            <key>pronunciation</key>
+            <string>Kem vy rabotaite?</string>
+            <key>audio</key>
+            <string>what-is-your-job</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>28</integer>
+            <key>categoryId</key>
+            <string>5</string>
+            <key>title</key>
+            <string>Shall we walk together?</string>
+            <key>phrase</key>
+            <string>Давайте прогуляемся?</string>
+            <key>pronunciation</key>
+            <string>Davaiti pragulyaimsya</string>
+            <key>audio</key>
+            <string>shall-we-walk</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>29</integer>
+            <key>categoryId</key>
+            <string>5</string>
+            <key>title</key>
+            <string>Can you show me the city?</string>
+            <key>phrase</key>
+            <string>Вы не покажете мне город?</string>
+            <key>pronunciation</key>
+            <string>y ni pakazhiti mne gorad?</string>
+            <key>audio</key>
+            <string>can-you-show-me-the-city</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>30</integer>
+            <key>categoryId</key>
+            <string>5</string>
+            <key>title</key>
+            <string>Shall we eat?.</string>
+            <key>phrase</key>
+            <string>Давайте пообедаем(afternoon) {поужинаем(evening), позавтракаем(morning)}?</string>
+            <key>pronunciation</key>
+            <string>Davaiti paabedaim (pauzhinaim, pazaftrakaim)</string>
+            <key>audio</key>
+            <string>shall-we-eat</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>31</integer>
+            <key>categoryId</key>
+            <string>5</string>
+            <key>title</key>
+            <string>What is your hobby?</string>
+            <key>phrase</key>
+            <string>Какое у вас хобби?</string>
+            <key>pronunciation</key>
+            <string>Kakoe u vas hobi?</string>
+            <key>audio</key>
+            <string>what-is-your-hobby</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>32</integer>
+            <key>categoryId</key>
+            <string>6</string>
+            <key>title</key>
+            <string>Are you married?</string>
+            <key>phrase</key>
+            <string>Вы замужем(For Females)? Вы женаты(For males)?</string>
+            <key>pronunciation</key>
+            <string>Vy zamuzhem(zhinaty)?</string>
+            <key>audio</key>
+            <string>are-you-married</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>33</integer>
+            <key>categoryId</key>
+            <string>6</string>
+            <key>title</key>
+            <string>How many people are in your family?</string>
+            <key>phrase</key>
+            <string>Сколько человек у вас в семье?</string>
+            <key>pronunciation</key>
+            <string>Skol`ka chilavek u vas v sim`e?</string>
+            <key>audio</key>
+            <string>how-many-people-are-in-your-family</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>34</integer>
+            <key>categoryId</key>
+            <string>6</string>
+            <key>title</key>
+            <string>How many people?</string>
+            <key>phrase</key>
+            <string>Сколько человек?</string>
+            <key>pronunciation</key>
+            <string>Skol`ka chilavek?</string>
+            <key>audio</key>
+            <string>how-many-people</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>35</integer>
+            <key>categoryId</key>
+            <string>6</string>
+            <key>title</key>
+            <string>Do you have brothers or sisters?</string>
+            <key>phrase</key>
+            <string>У вас есть брат или сестра?</string>
+            <key>pronunciation</key>
+            <string>U vas jest` brat ili sistra?</string>
+            <key>audio</key>
+            <string>do-you-have-brothers-or-sisters</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>36</integer>
+            <key>categoryId</key>
+            <string>6</string>
+            <key>title</key>
+            <string>1 person. 2 people. 3 people. 4, 5 people.</string>
+            <key>phrase</key>
+            <string>1(один) человек. 2 человека. 3 человека. 4-5 человек.</string>
+            <key>pronunciation</key>
+            <string>adin chilavek. dva chilaveka. tri chilaveka. chityri-pyat` chilavek.</string>
+            <key>audio</key>
+            <string>1-5people</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>37</integer>
+            <key>categoryId</key>
+            <string>7</string>
+            <key>title</key>
+            <string>It was fun.</string>
+            <key>phrase</key>
+            <string>Было весело.</string>
+            <key>pronunciation</key>
+            <string>Byla vesela</string>
+            <key>audio</key>
+            <string>it-was-fun</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>38</integer>
+            <key>categoryId</key>
+            <string>7</string>
+            <key>title</key>
+            <string>Let's meet again.</string>
+            <key>phrase</key>
+            <string>До следующей встречи.</string>
+            <key>pronunciation</key>
+            <string>Da sledushei fsrechi</string>
+            <key>audio</key>
+            <string>lets-meet-again</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>39</integer>
+            <key>categoryId</key>
+            <string>7</string>
+            <key>title</key>
+            <string>I am glad.</string>
+            <key>phrase</key>
+            <string>Я счастлив(счастлива).</string>
+            <key>pronunciation</key>
+            <string>Ya shasliv(shasliva)</string>
+            <key>audio</key>
+            <string>i-am-glad-invited</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>40</integer>
+            <key>categoryId</key>
+            <string>7</string>
+            <key>title</key>
+            <string>Thank you for the invite.</string>
+            <key>phrase</key>
+            <string>Спасибо большое за приглашение.</string>
+            <key>pronunciation</key>
+            <string>Spasiba bal`shoe za priglashenie</string>
+            <key>audio</key>
+            <string>thank-you-for-the-invite</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>41</integer>
+            <key>categoryId</key>
+            <string>8</string>
+            <key>title</key>
+            <string>Where is ～?</string>
+            <key>phrase</key>
+            <string>Где находится　～?</string>
+            <key>pronunciation</key>
+            <string>Gde nahoditsa ～?</string>
+            <key>audio</key>
+            <string>where-is</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>42</integer>
+            <key>categoryId</key>
+            <string>8</string>
+            <key>title</key>
+            <string>Over there.</string>
+            <key>phrase</key>
+            <string>Там.</string>
+            <key>pronunciation</key>
+            <string>Tam</string>
+            <key>audio</key>
+            <string>over-there</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>43</integer>
+            <key>categoryId</key>
+            <string>8</string>
+            <key>title</key>
+            <string>Straight. Left. Right</string>
+            <key>phrase</key>
+            <string>Прямо. Слева. Справа.</string>
+            <key>pronunciation</key>
+            <string>Pryama. Sleva. Sprava.</string>
+            <key>audio</key>
+            <string>straight-left-right</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>44</integer>
+            <key>categoryId</key>
+            <string>8</string>
+            <key>title</key>
+            <string>Station. Police. Bus stop. Taxi. Hotel.</string>
+            <key>phrase</key>
+            <string>Вокзал. Милиция. Остановка. Такси. Отель.</string>
+            <key>pronunciation</key>
+            <string>Vakzal. Militsiya. Astanovka. Taksi. Atel`</string>
+            <key>audio</key>
+            <string>station-police-bus-stop</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>45</integer>
+            <key>categoryId</key>
+            <string>9</string>
+            <key>title</key>
+            <string>Excuse me, where is the station?</string>
+            <key>phrase</key>
+            <string>Извините, где находится вокзал?</string>
+            <key>pronunciation</key>
+            <string>Izvinite, gde nahoditsa vakzal?</string>
+            <key>audio</key>
+            <string>excuse-me-where-is-the-station</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>46</integer>
+            <key>categoryId</key>
+            <string>9</string>
+            <key>title</key>
+            <string>Please get me off here.</string>
+            <key>phrase</key>
+            <string>Остановите, пожалуйста, здесь.</string>
+            <key>pronunciation</key>
+            <string>Astanaviti pazhalusta zdes`</string>
+            <key>audio</key>
+            <string>please-get-me-off-here</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>47</integer>
+            <key>categoryId</key>
+            <string>9</string>
+            <key>title</key>
+            <string>I am going to ～. I am going to the department store.</string>
+            <key>phrase</key>
+            <string>Я иду (еду) в(на)～. Я иду в ГУМ.</string>
+            <key>pronunciation</key>
+            <string>Ya idu(edu) v (na) ～. Ya idu v GUM</string>
+            <key>audio</key>
+            <string>i-am-going-to-the-department-store</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>48</integer>
+            <key>categoryId</key>
+            <string>9</string>
+            <key>title</key>
+            <string>Excuse me, how do you get to ～?(On foot)</string>
+            <key>phrase</key>
+            <string>Извините, как лучше пройти в(на) ～?</string>
+            <key>pronunciation</key>
+            <string>Izviniti, kak luchshe praiti v(na) ～?</string>
+            <key>audio</key>
+            <string>how-do-you-get-to-on-foot</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>49</integer>
+            <key>categoryId</key>
+            <string>9</string>
+            <key>title</key>
+            <string>Where should I get off at? (Bus)</string>
+            <key>phrase</key>
+            <string>Где лучше выйти?</string>
+            <key>pronunciation</key>
+            <string>Gde luchshe vyiti?</string>
+            <key>audio</key>
+            <string>where-should-i-get-off-at</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>50</integer>
+            <key>categoryId</key>
+            <string>9</string>
+            <key>title</key>
+            <string>How much is it? Please write it down.</string>
+            <key>phrase</key>
+            <string>Сколько стоит? Напишите, пожалуйста, на бумаге.</string>
+            <key>pronunciation</key>
+            <string>Skol`ka stoit? Napishiti pazhalusta na bumagi.</string>
+            <key>audio</key>
+            <string>how-much-is-it-please-write-it-down</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>51</integer>
+            <key>categoryId</key>
+            <string>10</string>
+            <key>title</key>
+            <string>I am a tourist. (At the immigration)</string>
+            <key>phrase</key>
+            <string>Моя цель - туризм.</string>
+            <key>pronunciation</key>
+            <string>Maya tsel` - turizm</string>
+            <key>audio</key>
+            <string>i-am-a-tourist</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>52</integer>
+            <key>categoryId</key>
+            <string>10</string>
+            <key>title</key>
+            <string>Excuse me, where is ～?</string>
+            <key>phrase</key>
+            <string>Скажите пожалуйста, где находится　～?</string>
+            <key>pronunciation</key>
+            <string>Skazhiti pazhalusta, gde nahoditsa ～?</string>
+            <key>audio</key>
+            <string>excuse-me-where-is</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>53</integer>
+            <key>categoryId</key>
+            <string>10</string>
+            <key>title</key>
+            <string>Immigration. Visa. Currency exchange. Taxi. Bus.</string>
+            <key>phrase</key>
+            <string>Миграционная служба (миграционка). Виза. Обменный пункт (обменка). Такси. Автобус.</string>
+            <key>pronunciation</key>
+            <string>Migratsionaya sluzhba(Migratsionka). Viza. Abmenyi punkt(Abmenka). Taksi. Aftobus.</string>
+            <key>audio</key>
+            <string>immigration-visa-currency-exchange</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>54</integer>
+            <key>categoryId</key>
+            <string>11</string>
+            <key>title</key>
+            <string>How much is it?</string>
+            <key>phrase</key>
+            <string>Сколько это стоит?</string>
+            <key>pronunciation</key>
+            <string>Skol`ka eta stoit?</string>
+            <key>audio</key>
+            <string>how-much-is-it</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>55</integer>
+            <key>categoryId</key>
+            <string>11</string>
+            <key>title</key>
+            <string>Do you have 〜? Do you have a matryoshka?</string>
+            <key>phrase</key>
+            <string>У вас есть～ ? У Вас есть матрёшки?</string>
+            <key>pronunciation</key>
+            <string>U vas est`～? U vas est` matryoshki?</string>
+            <key>audio</key>
+            <string>do-you-have</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>56</integer>
+            <key>categoryId</key>
+            <string>11</string>
+            <key>title</key>
+            <string>May I have this?</string>
+            <key>phrase</key>
+            <string>Дайте мне это, пожалуйста.</string>
+            <key>pronunciation</key>
+            <string>Daiti mne eta, pazhalusta.</string>
+            <key>audio</key>
+            <string>may-i-have-this</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>57</integer>
+            <key>categoryId</key>
+            <string>11</string>
+            <key>title</key>
+            <string>Cloths. Alcohol. Films. Souveniers. CD,DVD.</string>
+            <key>phrase</key>
+            <string>Одежда. Водка. Плёнка. Сувенир. CD・DVD</string>
+            <key>pronunciation</key>
+            <string>Adezhda. Suvinir (Suviniry). Plyonka. Votka. Adezhda</string>
+            <key>audio</key>
+            <string>cloths-alcohol-films</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>58</integer>
+            <key>categoryId</key>
+            <string>12</string>
+            <key>title</key>
+            <string>How long does it take? It takes 20 minutes.</string>
+            <key>phrase</key>
+            <string>Сколько времени это займёт? то займёт 20 минут.</string>
+            <key>pronunciation</key>
+            <string>Skol`ka vremini eta zaimyot? Eta zaimyot dvatsat` minut.</string>
+            <key>audio</key>
+            <string>how-long-does-it-take</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>59</integer>
+            <key>categoryId</key>
+            <string>12</string>
+            <key>title</key>
+            <string>To 〜, please. (For taxi) TO GUM, please.</string>
+            <key>phrase</key>
+            <string>До　～　,пожалуйста. До ГУМа, пожалуйста</string>
+            <key>pronunciation</key>
+            <string>Da～, pazhalusta. Da GUMa pazhalusta.</string>
+            <key>audio</key>
+            <string>to-please-taxi</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>60</integer>
+            <key>categoryId</key>
+            <string>12</string>
+            <key>title</key>
+            <string>Can I go by bus?</string>
+            <key>phrase</key>
+            <string>Можно доехать на автобусе?</string>
+            <key>pronunciation</key>
+            <string>Mozhna dajehat` na aftobuse?</string>
+            <key>audio</key>
+            <string>can-i-go-by-bus</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>61</integer>
+            <key>categoryId</key>
+            <string>12</string>
+            <key>title</key>
+            <string>How much is it to travel?</string>
+            <key>phrase</key>
+            <string>Сколько стоит проезд?</string>
+            <key>pronunciation</key>
+            <string>Skol`ka stoit praezd?</string>
+            <key>audio</key>
+            <string>how-much-is-it-to-travel</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>62</integer>
+            <key>categoryId</key>
+            <string>12</string>
+            <key>title</key>
+            <string>How do you go to 〜? How do you go to GUM?</string>
+            <key>phrase</key>
+            <string>Скажите пожалуйста,как доехать до～? Скажите пожалуйста,как доехать до ГУМа ?</string>
+            <key>pronunciation</key>
+            <string>Skazhiti pazhalusta, kak daehat` da ～? Skazhiti pazhalusta, kak daehat` da GUMa?</string>
+            <key>audio</key>
+            <string>how-do-you-go-to-gum</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>63</integer>
+            <key>categoryId</key>
+            <string>13</string>
+            <key>title</key>
+            <string>How much is it?</string>
+            <key>phrase</key>
+            <string>Сколько это стоит?</string>
+            <key>pronunciation</key>
+            <string>Skol`ka eta stoit?</string>
+            <key>audio</key>
+            <string>how-much-is-it-bazaar</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>64</integer>
+            <key>categoryId</key>
+            <string>13</string>
+            <key>title</key>
+            <string>What is this?</string>
+            <key>phrase</key>
+            <string>Что это такое?</string>
+            <key>pronunciation</key>
+            <string>Shto eta takoe?</string>
+            <key>audio</key>
+            <string>what-is-this</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>65</integer>
+            <key>categoryId</key>
+            <string>13</string>
+            <key>title</key>
+            <string>Give me a kilo. 500g, 2kg, 3kg</string>
+            <key>phrase</key>
+            <string>Дайте 1 килограмм. 500 грамм, 2 килограмма, 5 килограммов</string>
+            <key>pronunciation</key>
+            <string>Daitye adin kilogram. pitsot gram, dva kilagrama, pyat` kilagramaf</string>
+            <key>audio</key>
+            <string>gie-me-a-kilo</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>66</integer>
+            <key>categoryId</key>
+            <string>13</string>
+            <key>title</key>
+            <string>Give me this, (please).</string>
+            <key>phrase</key>
+            <string>Дайте (пожалуйста) это.</string>
+            <key>pronunciation</key>
+            <string>Daiti (pazhalusta) eta</string>
+            <key>audio</key>
+            <string>give-me-this-please</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>67</integer>
+            <key>categoryId</key>
+            <string>13</string>
+            <key>title</key>
+            <string>Vegetables. Bread. Jam. Alcohol. Chocolate.</string>
+            <key>phrase</key>
+            <string>Овощи. Хлеб. Варенье. Водка. Шоколад</string>
+            <key>pronunciation</key>
+            <string>Ovashi. Hlep. Varen`e. Votka. Shakalat</string>
+            <key>audio</key>
+            <string>vegetables-bread-jam</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>68</integer>
+            <key>categoryId</key>
+            <string>14</string>
+            <key>title</key>
+            <string>Let's eat.</string>
+            <key>phrase</key>
+            <string>Давайте кушать.</string>
+            <key>pronunciation</key>
+            <string>Davaiti kushat`</string>
+            <key>audio</key>
+            <string>lets-eat</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>69</integer>
+            <key>categoryId</key>
+            <string>14</string>
+            <key>title</key>
+            <string>Thank you for the food.</string>
+            <key>phrase</key>
+            <string>Спасибо за угощение.</string>
+            <key>pronunciation</key>
+            <string>Spasiba za ugashenie.</string>
+            <key>audio</key>
+            <string>thank-you-for-the-food</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>70</integer>
+            <key>categoryId</key>
+            <string>14</string>
+            <key>title</key>
+            <string>Very delicious</string>
+            <key>phrase</key>
+            <string>Очень вкусно.</string>
+            <key>pronunciation</key>
+            <string>Ochin` fkusna</string>
+            <key>audio</key>
+            <string>very-delicious</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>71</integer>
+            <key>categoryId</key>
+            <string>14</string>
+            <key>title</key>
+            <string>What is the name of the food?</string>
+            <key>phrase</key>
+            <string>Это что за еда?</string>
+            <key>pronunciation</key>
+            <string>Eta chto za ida?</string>
+            <key>audio</key>
+            <string>what-is-the-name-of-the-food</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>72</integer>
+            <key>categoryId</key>
+            <string>14</string>
+            <key>title</key>
+            <string>I am full.</string>
+            <key>phrase</key>
+            <string>Я уже сыт(сыта).</string>
+            <key>pronunciation</key>
+            <string>Ya uzhe syt (syta)</string>
+            <key>audio</key>
+            <string>i-am-full</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>73</integer>
+            <key>categoryId</key>
+            <string>14</string>
+            <key>title</key>
+            <string>Excuse me, I can't eat.</string>
+            <key>phrase</key>
+            <string>Извините, я не могу это есть.</string>
+            <key>pronunciation</key>
+            <string>Izviniti, ya ni magu eta est`.</string>
+            <key>audio</key>
+            <string>i-cant-eat</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>74</integer>
+            <key>categoryId</key>
+            <string>15</string>
+            <key>title</key>
+            <string>I have a reservation.</string>
+            <key>phrase</key>
+            <string>Был заказан столик.</string>
+            <key>pronunciation</key>
+            <string>Byl zakazan stolik</string>
+            <key>audio</key>
+            <string>i-have-a-reservation</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>75</integer>
+            <key>categoryId</key>
+            <string>15</string>
+            <key>title</key>
+            <string>Can I order, please?</string>
+            <key>phrase</key>
+            <string>Примите заказ, пожалуйста.</string>
+            <key>pronunciation</key>
+            <string>primiti zakaz pazhalusta</string>
+            <key>audio</key>
+            <string>can-i-order-please</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>76</integer>
+            <key>categoryId</key>
+            <string>15</string>
+            <key>title</key>
+            <string>GIve me this, please.</string>
+            <key>phrase</key>
+            <string>Дайте, пожалуйста, это.</string>
+            <key>pronunciation</key>
+            <string>Daiti pazhalusta eta.</string>
+            <key>audio</key>
+            <string>give-me-this-please-restaurant</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>77</integer>
+            <key>categoryId</key>
+            <string>15</string>
+            <key>title</key>
+            <string>Check, please.</string>
+            <key>phrase</key>
+            <string>ринесите, пожалуйста, счёт.</string>
+            <key>pronunciation</key>
+            <string>Prinisiti, pazhalusta, shyot.</string>
+            <key>audio</key>
+            <string>check-please</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>78</integer>
+            <key>categoryId</key>
+            <string>16</string>
+            <key>title</key>
+            <string>Do you have a room?</string>
+            <key>phrase</key>
+            <string>У вас есть свободные номера?</string>
+            <key>pronunciation</key>
+            <string>U vas est` svabodnye namera?</string>
+            <key>audio</key>
+            <string>do-you-have-a-room</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>79</integer>
+            <key>categoryId</key>
+            <string>16</string>
+            <key>title</key>
+            <string>How much is it for a night?</string>
+            <key>phrase</key>
+            <string>Сколько стоит номер в сутки?</string>
+            <key>pronunciation</key>
+            <string>Skol`ka stoit nomer f sutki?</string>
+            <key>audio</key>
+            <string>how-much-is-it-for-a-night</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>80</integer>
+            <key>categoryId</key>
+            <string>16</string>
+            <key>title</key>
+            <string>I have a reservation.</string>
+            <key>phrase</key>
+            <string>Был заказан номер.</string>
+            <key>pronunciation</key>
+            <string>Byl zakazan nomer</string>
+            <key>audio</key>
+            <string>i-have-a-reservation-hotel</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>81</integer>
+            <key>categoryId</key>
+            <string>16</string>
+            <key>title</key>
+            <string>There is a problem with my room.</string>
+            <key>phrase</key>
+            <string>У меня в номере проблемы.</string>
+            <key>pronunciation</key>
+            <string>U minya v nomiri prablemy</string>
+            <key>audio</key>
+            <string>there-is-a-problem</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>82</integer>
+            <key>categoryId</key>
+            <string>16</string>
+            <key>title</key>
+            <string>Hotel. One day. 2 days. 3 days. Key. Bed. Sheets.</string>
+            <key>phrase</key>
+            <string>Отель. Одни сутки. Двое суток. Трое суток. Ключ. Кровать. Простыня.</string>
+            <key>pronunciation</key>
+            <string>Atel`. Dvoya sutak.. Klyuch`. Kravat`. Prastynya.</string>
+            <key>audio</key>
+            <string>hotel-1day-2days</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>83</integer>
+            <key>categoryId</key>
+            <string>17</string>
+            <key>title</key>
+            <string>Hello (On the phone)</string>
+            <key>phrase</key>
+            <string>Алло (Аллё)</string>
+            <key>pronunciation</key>
+            <string>Alyo</string>
+            <key>audio</key>
+            <string>hello-phone</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>84</integer>
+            <key>categoryId</key>
+            <string>17</string>
+            <key>title</key>
+            <string>Can I speak with ～?</string>
+            <key>phrase</key>
+            <string>Здравствуйте, я могу поговорить с～?</string>
+            <key>pronunciation</key>
+            <string>Zdrastvuiti, ya magu pagavarit` s～?</string>
+            <key>audio</key>
+            <string>can-i-speak-with</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>85</integer>
+            <key>categoryId</key>
+            <string>17</string>
+            <key>title</key>
+            <string>This is ～. This is Suzuki. This is Olya.</string>
+            <key>phrase</key>
+            <string>Это ～. Это Сузуки. Это Оля.</string>
+            <key>pronunciation</key>
+            <string>Eta ～. Eta Suzuki. Eta Olya.</string>
+            <key>audio</key>
+            <string>this-is-suzuki</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>86</integer>
+            <key>categoryId</key>
+            <string>18</string>
+            <key>title</key>
+            <string>Please call an ambulance.</string>
+            <key>phrase</key>
+            <string>Позовите ,пожалуйста, скорую помощь.</string>
+            <key>pronunciation</key>
+            <string>Pazaviti pazhalusta skoruyu pomash`.</string>
+            <key>audio</key>
+            <string>call-an-ambulance</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>87</integer>
+            <key>categoryId</key>
+            <string>18</string>
+            <key>title</key>
+            <string>Please call a taxi.</string>
+            <key>phrase</key>
+            <string>Вызовите ,пожалуйста, такси.</string>
+            <key>pronunciation</key>
+            <string>Vyzaviti pazhalusta vracha</string>
+            <key>audio</key>
+            <string>call-a-taxi</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>88</integer>
+            <key>categoryId</key>
+            <string>18</string>
+            <key>title</key>
+            <string>I got sick.</string>
+            <key>phrase</key>
+            <string>Я заболел(заболела).</string>
+            <key>pronunciation</key>
+            <string>a zabalel(zabalela).</string>
+            <key>audio</key>
+            <string>i-got-sick</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>89</integer>
+            <key>categoryId</key>
+            <string>18</string>
+            <key>title</key>
+            <string>Where is the hospotal?</string>
+            <key>phrase</key>
+            <string>Где находится больница?</string>
+            <key>pronunciation</key>
+            <string>Gde nahoditsa bal`nitsa?</string>
+            <key>audio</key>
+            <string>where-is-the-hospital</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>90</integer>
+            <key>categoryId</key>
+            <string>18</string>
+            <key>title</key>
+            <string>I am feeling bad.</string>
+            <key>phrase</key>
+            <string>Мне плохо.</string>
+            <key>pronunciation</key>
+            <string>Mne ploha.</string>
+            <key>audio</key>
+            <string>feeling-bad</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>91</integer>
+            <key>categoryId</key>
+            <string>18</string>
+            <key>title</key>
+            <string>Hurting. I have a stomachache. I have a fever. I have a  cold.</string>
+            <key>phrase</key>
+            <string>Болит. У меня болит желудок. У меня температура. Я простудился (простудилась).</string>
+            <key>pronunciation</key>
+            <string>Balit. U minya balit zhiludak. U minya timpiratura. Ya prastudilsya (prastudilas`)</string>
+            <key>audio</key>
+            <string>hurting-stomachahe-fever</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>92</integer>
+            <key>categoryId</key>
+            <string>19</string>
+            <key>title</key>
+            <string>Please call Japanese embassy.</string>
+            <key>phrase</key>
+            <string>Позвоните, пожалуйста, в японское посольство.</string>
+            <key>pronunciation</key>
+            <string>Pazvaniti pazhalusta v iponskae pasol`stva.</string>
+            <key>audio</key>
+            <string>call-japanese-embassy</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>93</integer>
+            <key>categoryId</key>
+            <string>19</string>
+            <key>title</key>
+            <string>Please call police.</string>
+            <key>phrase</key>
+            <string>Позвоните, пожалуйста, в милицию.</string>
+            <key>pronunciation</key>
+            <string>Pazvaniti pazhalusta v militsiyu.</string>
+            <key>audio</key>
+            <string>please-call-police</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>94</integer>
+            <key>categoryId</key>
+            <string>19</string>
+            <key>title</key>
+            <string>Where is the police station?</string>
+            <key>phrase</key>
+            <string>Где милицейский участок (милиция)?</string>
+            <key>pronunciation</key>
+            <string>Gde militseiski uchastak?</string>
+            <key>audio</key>
+            <string>where-is-the-police-station</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>95</integer>
+            <key>categoryId</key>
+            <string>19</string>
+            <key>title</key>
+            <string>I was stolen. (someone stole my possession)</string>
+            <key>phrase</key>
+            <string>У меня украли.</string>
+            <key>pronunciation</key>
+            <string>U minya ukrali</string>
+            <key>audio</key>
+            <string>someone-stole-my-possesion</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>96</integer>
+            <key>categoryId</key>
+            <string>19</string>
+            <key>title</key>
+            <string>Police took my money.</string>
+            <key>phrase</key>
+            <string>Милиция забрала у меня деньги.</string>
+            <key>pronunciation</key>
+            <string>Militsiya zabrala u minya den`gi.</string>
+            <key>audio</key>
+            <string>police-took-my-money</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>97</integer>
+            <key>categoryId</key>
+            <string>19</string>
+            <key>title</key>
+            <string>I was robbed.</string>
+            <key>phrase</key>
+            <string>Меня обокрали.</string>
+            <key>pronunciation</key>
+            <string>Minya abakrali.</string>
+            <key>audio</key>
+            <string>i-was-robbed</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>98</integer>
+            <key>categoryId</key>
+            <string>20</string>
+            <key>title</key>
+            <string>I am looking forward to seeing you again.</string>
+            <key>phrase</key>
+            <string>Жду с нетерпением нашей следующей встречи!</string>
+            <key>pronunciation</key>
+            <string>Zhdu s nitirpeniem nashei sledushei fstrechi!</string>
+            <key>audio</key>
+            <string>looking-forward-to-seeing-you</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>99</integer>
+            <key>categoryId</key>
+            <string>20</string>
+            <key>title</key>
+            <string>I will not forget about you!</string>
+            <key>phrase</key>
+            <string>Я тебя не смогу забыть!</string>
+            <key>pronunciation</key>
+            <string>a tibya nismagu zabyt`!</string>
+            <key>audio</key>
+            <string>i-will-not-forget</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>100</integer>
+            <key>categoryId</key>
+            <string>20</string>
+            <key>title</key>
+            <string>Let's meet again!</string>
+            <key>phrase</key>
+            <string>До следующей встречи!</string>
+            <key>pronunciation</key>
+            <string>Da sledushei fstrechi</string>
+            <key>audio</key>
+            <string>lets-meet-again-farewell</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>101</integer>
+            <key>categoryId</key>
+            <string>20</string>
+            <key>title</key>
+            <string>Thank you for everything.</string>
+            <key>phrase</key>
+            <string>Большое спасибо за всё.</string>
+            <key>pronunciation</key>
+            <string>Bal`shoe spasiba zafsyo.</string>
+            <key>audio</key>
+            <string>thank-you-for-everything</string>
+        </dict>
+        <dict>
+            <key>id</key>
+            <integer>102</integer>
+            <key>categoryId</key>
+            <string>20</string>
+            <key>title</key>
+            <string>You have done so much for me.</string>
+            <key>phrase</key>
+            <string>Вы так много для меня сделали.</string>
+            <key>pronunciation</key>
+            <string>Vy tak mnoga dlya minya sdelali.</string>
+            <key>audio</key>
+            <string>so-much-for-me</string>
+        </dict>
+    </array>
+</plist>
+

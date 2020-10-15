@@ -29,12 +29,12 @@ struct HomeView: View {
                                             NavigationLink(destination: CategoryView(categoryId: index, title: categories[index].title)) {
                                                 VStack(spacing: 0) {
                                                     Image(categories[index].image)
-                                                        .padding(.top, 5)
-                                                        .padding(.bottom, 7)
+                                                        .padding(.bottom, 5)
                                                     Text("\(categories[index].title)")
                                                         .font(.custom("HelveticaNeue", size: 14))
                                                         .foregroundColor(.textColor)
                                                 }
+                                                .padding(.top, 21)
                                             }
                                         }
                                         .frame(width: geometry.size.width / CGFloat(numberOfColumns), height: geometry.size.width / CGFloat(numberOfColumns))

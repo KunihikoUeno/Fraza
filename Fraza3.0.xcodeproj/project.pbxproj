@@ -136,7 +136,6 @@
 		05C750B125385703008EB684 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C750B025385703008EB684 /* Category.swift */; };
 		05C876DA2531D96900715187 /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C876D92531D96900715187 /* UIColor+.swift */; };
 		05C876DD2531FAB000715187 /* Color+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C876DC2531FAB000715187 /* Color+.swift */; };
-		05C876E3253248E700715187 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C876E2253248E700715187 /* Data.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -274,7 +273,6 @@
 		05C750B025385703008EB684 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		05C876D92531D96900715187 /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
 		05C876DC2531FAB000715187 /* Color+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+.swift"; sourceTree = "<group>"; };
-		05C876E2253248E700715187 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -791,7 +789,6 @@
 			isa = PBXGroup;
 			children = (
 				05C750AC253855AC008EB684 /* Data */,
-				05C876E2253248E700715187 /* Data.swift */,
 				051B882A25387FDF004C7B0A /* DataManager.swift */,
 			);
 			path = Model;
@@ -970,7 +967,6 @@
 				05AB09962531D4E7007FC0B6 /* InfoView.swift in Sources */,
 				05BB832B2538372000341DC7 /* CreditView.swift in Sources */,
 				0523C9202537BBD500306C5D /* ContactView.swift in Sources */,
-				05C876E3253248E700715187 /* Data.swift in Sources */,
 				055270162534E18400FB636A /* PhraseSelectedView.swift in Sources */,
 				05663746253771D3006AC715 /* PhraseListView.swift in Sources */,
 				0523C9132537AB7C00306C5D /* InfoListView.swift in Sources */,

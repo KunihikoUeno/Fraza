@@ -7,7 +7,7 @@ struct InfoListItemView: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 0) {
             Text("\(title)")
-                .font(.custom("HelveticaNeue-Light", size: 14))
+                .font(.custom("HelveticaNeue", size: 14))
                 .foregroundColor(.textColor)
                 .padding([.top, .bottom], 18)
                 .padding([.leading, .trailing], 15)

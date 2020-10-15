@@ -32,7 +32,7 @@ struct HomeView: View {
                                                         .padding(.top, 5)
                                                         .padding(.bottom, 7)
                                                     Text("\(categories[index].title)")
-                                                        .font(.custom("HelveticaNeue-Light", size: 14))
+                                                        .font(.custom("HelveticaNeue", size: 14))
                                                         .foregroundColor(.textColor)
                                                 }
                                             }

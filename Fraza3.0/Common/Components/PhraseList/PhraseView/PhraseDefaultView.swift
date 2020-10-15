@@ -13,7 +13,7 @@ struct PhraseDefaultView: View {
             Text("\(phrase.title)")
                 .font(.custom("HelveticaNeue", size: 15))
                 .foregroundColor(.textColor)
-                .padding([.top, .bottom], 18)
+                .padding([.top, .bottom], 19)
                 .padding([.leading, .trailing], 15)
                 .listRowInsets(EdgeInsets())
             Divider()

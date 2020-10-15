@@ -2,21 +2,10 @@ import SwiftUI
 
 struct HomeView: View {
     
-    private var categories: [Category] = []
+    private var categories: [Category] = CategoryManager.shared.fetchData()
     private let numberOfColumns = 3
     
-    init() {
-        do {
-            guard let filepath = Bundle.main.url(forResource: "Categories", withExtension: "plist") else { return }
-            let data = try Data(contentsOf: filepath)
-            categories = try PropertyListDecoder().decode([Category].self, from: data)
-        } catch {
-            fatalError("Error occured with Categories.plist: \(error.localizedDescription)")
-        }
-    }
-    
     private var numberOfRows: Int {
-//        guard let categories = categories else { return 0 }
         return categories.count % 3 > 0
             ? categories.count / 3 + 1
             : categories.count / 3

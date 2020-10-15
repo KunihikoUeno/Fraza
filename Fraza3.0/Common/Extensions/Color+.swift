@@ -8,7 +8,6 @@ extension Color {
     static let textColor = Color(hex: 0x666666)
     static let listTextColor = Color(hex: 0x4F4F4F)
     static let phraseCellBackground = Color(hex: 0xE9F6FB)
-    static let searchBarTextFieldBackground = Color(hex: 0xDADADC)
     
     private init(hex rgbValue: UInt64) {
         let red = (rgbValue & 0xff0000) >> 16

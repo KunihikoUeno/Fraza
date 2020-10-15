@@ -5,17 +5,17 @@ struct SearchView: View {
     @State private var searchWord = ""
     
     var body: some View {
-        let flattenPhraseData = phraseData.flatMap { $0 }
-        let newPhraseData = searchWord.count > 0
-            ? flattenPhraseData.filter {
+        let phrases = DataManager.shared.fetchData(type: Phrase.self, fileName: "Phrases")
+        let filteredPhrases = searchWord.count > 0
+            ? phrases.filter {
                 $0.title.lowercased().contains(searchWord.lowercased())
             }
-            : flattenPhraseData
+            : phrases
         
         CustomNavigationView(title: "Search") {
             VStack(spacing: 0) {
                 SearchBarView(searchWord: $searchWord)
-                PhraseListView(newPhraseData)
+                PhraseListView(filteredPhrases)
             }
         }
     }

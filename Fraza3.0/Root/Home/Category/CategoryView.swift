@@ -4,16 +4,18 @@ struct CategoryView: View {
     
     private let categoryId: Int
     private let title: String
+    private var phrases: [Phrase] = []
     
     init(categoryId: Int, title: String) {
         self.categoryId = categoryId
         self.title = title
-        setupPhraseData()
+        phrases = DataManager.shared.fetchData(type: Phrase.self, fileName: "Phrases")
+            .filter { $0.categoryId == categoryId + 1 }
     }
     
     var body: some View {
         CustomNavigationView(title: title) {
-            PhraseListView(phraseData[categoryId])
+            PhraseListView(phrases)
         }
     }
     

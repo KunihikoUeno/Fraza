@@ -33,7 +33,7 @@ struct PhraseListView: View {
 
 struct PhraseListView_Previews: PreviewProvider {
     static var previews: some View {
-        let phrase = Phrase(title: "Yes/No", phrase: "Да・Нет", pronunciation: "Da・Niet", audio: "yes-no")
+        let phrase = Phrase(id: 1, categoryId: 1, title: "Yes/No", phrase: "Да・Нет", pronunciation: "Da・Niet", audio: "yes-no")
         PhraseListView([phrase])
     }
 }

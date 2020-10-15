@@ -12,7 +12,7 @@ class DataManager {
             let data = try Data(contentsOf: filepath)
             return try PropertyListDecoder().decode([T].self, from: data)
         } catch {
-            fatalError("Error occured with Categories.plist: \(error.localizedDescription)")
+            fatalError("Error occured with \(fileName).plist: \(error.localizedDescription)")
         }
     }
     

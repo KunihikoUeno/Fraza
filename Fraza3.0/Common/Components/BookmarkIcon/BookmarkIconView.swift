@@ -2,13 +2,18 @@ import SwiftUI
 
 struct BookmarkIconView: View {
     
-    @State var isBookmarked: Bool
+    let phraseId: Int
+    @ObservedObject var bookmarks = Bookmarks()
     
     var body: some View {
         Button(action: {
-            isBookmarked = !isBookmarked
+            if bookmarks.mylist.contains(phraseId) {
+                bookmarks.mylist = bookmarks.mylist.filter { $0 != phraseId }
+            } else {
+                bookmarks.mylist.append(phraseId)
+            }
         }) {
-            Image(isBookmarked ? "red-favorite" : "grey-favorite")
+            Image(bookmarks.mylist.contains(phraseId) ? "red-favorite" : "grey-favorite")
         }
     }
     
@@ -16,6 +21,6 @@ struct BookmarkIconView: View {
 
 struct BookmarkIconView_Previews: PreviewProvider {
     static var previews: some View {
-        BookmarkIconView(isBookmarked: false)
+        BookmarkIconView(phraseId: 1)
     }
 }

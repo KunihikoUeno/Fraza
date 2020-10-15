@@ -28,7 +28,7 @@ struct PhraseSelectedView: View {
                     AudioPlayerView(fileName: phrase.audio)
                         .padding(.leading, 1)
                         .padding(.bottom, 10)
-                    BookmarkIconView(isBookmarked: false)
+                    BookmarkIconView(phraseId: phrase.id)
                 }
                 .padding([.top, .bottom], 18)
                 .padding(.trailing, 15)

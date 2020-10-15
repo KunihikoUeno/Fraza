@@ -3,8 +3,11 @@ import MessageUI
 
 struct ContactView: View {
     
+    @State private var isPresented = false
+    
     private func sendAction() {
         print("send button tapped")
+        
     }
     
     var body: some View {
@@ -17,10 +20,14 @@ struct ContactView: View {
                     .lineSpacing(6)
                     .padding(.bottom, 15)
                 Button(action: {
-                    sendAction()
+                    self.isPresented.toggle()
                 }) {
                     Image("send")
                 }
+                .disabled(!MFMailComposeViewController.canSendMail())
+                .sheet(isPresented: $isPresented, content: {
+                    MailView(isShowing: self.$isPresented)
+                })
                 .padding(.bottom, 5)
             }
         }

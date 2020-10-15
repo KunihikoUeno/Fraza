@@ -12,6 +12,7 @@
 		0523C9132537AB7C00306C5D /* InfoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0523C9122537AB7C00306C5D /* InfoListView.swift */; };
 		0523C9172537AB9400306C5D /* InfoListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0523C9162537AB9400306C5D /* InfoListItemView.swift */; };
 		0523C9202537BBD500306C5D /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0523C91F2537BBD500306C5D /* ContactView.swift */; };
+		0523C92A2537C62E00306C5D /* MailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0523C9292537C62E00306C5D /* MailView.swift */; };
 		052ED2A12535F35100897FDB /* to-please-taxi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 052ED2282535F35100897FDB /* to-please-taxi.mp3 */; };
 		052ED2A22535F35100897FDB /* how-do-you-go-to-gum.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 052ED2292535F35100897FDB /* how-do-you-go-to-gum.mp3 */; };
 		052ED2A32535F35100897FDB /* how-much-is-it-to-travel.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 052ED22A2535F35100897FDB /* how-much-is-it-to-travel.mp3 */; };
@@ -138,6 +139,7 @@
 		0523C9122537AB7C00306C5D /* InfoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoListView.swift; sourceTree = "<group>"; };
 		0523C9162537AB9400306C5D /* InfoListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoListItemView.swift; sourceTree = "<group>"; };
 		0523C91F2537BBD500306C5D /* ContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactView.swift; sourceTree = "<group>"; };
+		0523C9292537C62E00306C5D /* MailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailView.swift; sourceTree = "<group>"; };
 		052ED2282535F35100897FDB /* to-please-taxi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "to-please-taxi.mp3"; sourceTree = "<group>"; };
 		052ED2292535F35100897FDB /* how-do-you-go-to-gum.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "how-do-you-go-to-gum.mp3"; sourceTree = "<group>"; };
 		052ED22A2535F35100897FDB /* how-much-is-it-to-travel.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "how-much-is-it-to-travel.mp3"; sourceTree = "<group>"; };
@@ -303,6 +305,7 @@
 			isa = PBXGroup;
 			children = (
 				0523C91F2537BBD500306C5D /* ContactView.swift */,
+				0523C9292537C62E00306C5D /* MailView.swift */,
 			);
 			path = Contact;
 			sourceTree = "<group>";
@@ -929,6 +932,7 @@
 				0552700C2534DDE600FB636A /* PhraseDefaultView.swift in Sources */,
 				0566374B253787B6006AC715 /* SearchBarView.swift in Sources */,
 				051CC6702535FED500FAF2B5 /* AudioPlayerView.swift in Sources */,
+				0523C92A2537C62E00306C5D /* MailView.swift in Sources */,
 				05AB09932531D4D3007FC0B6 /* FavoriteView.swift in Sources */,
 				05AB098D2531AE20007FC0B6 /* HomeView.swift in Sources */,
 				053A783F25334175005CD831 /* CustomNavigationView.swift in Sources */,

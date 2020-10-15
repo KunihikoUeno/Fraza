@@ -5,6 +5,7 @@ struct CategoryView: View {
     private let categoryId: Int
     private let title: String
     private var phrases: [Phrase] = []
+    @Environment(\.presentationMode) var presentationMode
     
     init(categoryId: Int, title: String) {
         self.categoryId = categoryId
@@ -14,9 +15,15 @@ struct CategoryView: View {
     }
     
     var body: some View {
-        CustomNavigationView(title: title) {
-            PhraseListView(phrases)
-        }
+        PhraseListView(phrases)
+            .navigationBarTitle(title, displayMode: .inline)
+            .navigationBarBackButtonHidden(true)
+            .navigationBarItems(leading: Button(action: {
+                presentationMode.wrappedValue.dismiss()
+            }) {
+                Text("< Back")
+                    .font(.custom("HelveticaNeue-Light", size: 16))
+            })
     }
     
 }

@@ -129,6 +129,7 @@
 		05B4B5C2253388CC00A54D10 /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B4B5C1253388CC00A54D10 /* CategoryView.swift */; };
 		05BA142E2534E5EE0091BA5C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BA142D2534E5EE0091BA5C /* SceneDelegate.swift */; };
 		05BB832B2538372000341DC7 /* CreditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BB832A2538372000341DC7 /* CreditView.swift */; };
+		05C750AE253855F4008EB684 /* Categories.plist in Resources */ = {isa = PBXBuildFile; fileRef = 05C750AD253855F4008EB684 /* Categories.plist */; };
 		05C876DA2531D96900715187 /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C876D92531D96900715187 /* UIColor+.swift */; };
 		05C876DD2531FAB000715187 /* Color+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C876DC2531FAB000715187 /* Color+.swift */; };
 		05C876E3253248E700715187 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C876E2253248E700715187 /* Data.swift */; };
@@ -262,6 +263,7 @@
 		05B4B5C1253388CC00A54D10 /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
 		05BA142D2534E5EE0091BA5C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		05BB832A2538372000341DC7 /* CreditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditView.swift; sourceTree = "<group>"; };
+		05C750AD253855F4008EB684 /* Categories.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Categories.plist; sourceTree = "<group>"; };
 		05C876D92531D96900715187 /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
 		05C876DC2531FAB000715187 /* Color+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+.swift"; sourceTree = "<group>"; };
 		05C876E2253248E700715187 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
@@ -731,6 +733,14 @@
 			path = Credit;
 			sourceTree = "<group>";
 		};
+		05C750AC253855AC008EB684 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				05C750AD253855F4008EB684 /* Categories.plist */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		05C876D72531D94B00715187 /* Common */ = {
 			isa = PBXGroup;
 			children = (
@@ -753,6 +763,7 @@
 		05C876E1253248D900715187 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				05C750AC253855AC008EB684 /* Data */,
 				05C876E2253248E700715187 /* Data.swift */,
 			);
 			path = Model;
@@ -843,6 +854,7 @@
 				052ED2BE2535F35100897FDB /* vegetables-bread-jam.mp3 in Resources */,
 				052ED2B52535F35100897FDB /* what-is-the-name-of-the-food.mp3 in Resources */,
 				052ED2F12535F35100897FDB /* police-took-my-money.mp3 in Resources */,
+				05C750AE253855F4008EB684 /* Categories.plist in Resources */,
 				052ED2AD2535F35100897FDB /* give-me-this-please-restaurant.mp3 in Resources */,
 				052ED2F52535F35100897FDB /* 1-5people.mp3 in Resources */,
 				052ED2ED2535F35100897FDB /* i-was-robbed.mp3 in Resources */,

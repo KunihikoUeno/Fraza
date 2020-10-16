@@ -12,7 +12,7 @@ struct CustomNavigationView<Content>: View where Content: View {
     }
     
     private func setupNavigatioinBarStyle() {
-        UINavigationBar.appearance().isTranslucent = false
+        UINavigationBar.appearance().isTranslucent = true
         UINavigationBar.appearance().tintColor = .white
         UINavigationBar.appearance().barStyle = UIBarStyle.black
         UINavigationBar.appearance().barTintColor = UIColor.customBlue

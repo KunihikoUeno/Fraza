@@ -621,13 +621,13 @@
 			path = Components;
 			sourceTree = "<group>";
 		};
-		0552700A2534DDD500FB636A /* PhraseView */ = {
+		0552700A2534DDD500FB636A /* PhraseItem */ = {
 			isa = PBXGroup;
 			children = (
 				0552700B2534DDE600FB636A /* PhraseDefaultView.swift */,
 				055270152534E18400FB636A /* PhraseSelectedView.swift */,
 			);
-			path = PhraseView;
+			path = PhraseItem;
 			sourceTree = "<group>";
 		};
 		05663749253787A6006AC715 /* SeachBar */ = {
@@ -642,7 +642,7 @@
 			isa = PBXGroup;
 			children = (
 				05663745253771D3006AC715 /* PhraseListView.swift */,
-				0552700A2534DDD500FB636A /* PhraseView */,
+				0552700A2534DDD500FB636A /* PhraseItem */,
 			);
 			path = PhraseList;
 			sourceTree = "<group>";

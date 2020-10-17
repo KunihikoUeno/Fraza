@@ -24,7 +24,8 @@ struct CustomNavigationView<Content>: View where Content: View {
     var body: some View {
         NavigationView {
             content()
-                .navigationBarTitle(title, displayMode: .inline)
+                .navigationBarTitle(title)
+                .navigationBarTitleDisplayMode(.inline)
         }
     }
     

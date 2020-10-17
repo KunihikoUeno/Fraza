@@ -5,21 +5,13 @@ struct SearchBarView: View {
     @Binding var searchWord: String
     
     var body: some View {
-        let binding = Binding<String>(
-            get: {
-                searchWord
-            },
-            set: {
-                searchWord = $0
-            }
-        )
         ZStack {
             Rectangle()
                 .fill(Color.customGray)
             HStack(spacing: 0) {
                 Image("search")
                     .padding(.trailing, 5)
-                TextField("Search", text: binding)
+                TextField("Search", text: $searchWord)
                     .font(.custom("HelveticaNeue-Light", size: 14))
                     .padding(5)
                 if searchWord.count > 0 {

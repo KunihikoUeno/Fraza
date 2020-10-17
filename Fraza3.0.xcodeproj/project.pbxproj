@@ -119,6 +119,7 @@
 		053A784225338669005CD831 /* CustomeHostingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053A784125338669005CD831 /* CustomeHostingView.swift */; };
 		0552700C2534DDE600FB636A /* PhraseDefaultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0552700B2534DDE600FB636A /* PhraseDefaultView.swift */; };
 		055270162534E18400FB636A /* PhraseSelectedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055270152534E18400FB636A /* PhraseSelectedView.swift */; };
+		055FA1AE253AEE74009A394E /* CustomAudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055FA1AD253AEE73009A394E /* CustomAudioPlayer.swift */; };
 		05663746253771D3006AC715 /* PhraseListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05663745253771D3006AC715 /* PhraseListView.swift */; };
 		0566374B253787B6006AC715 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0566374A253787B6006AC715 /* SearchBarView.swift */; };
 		05783DD72531A0BE000F68FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05783DD62531A0BE000F68FA /* AppDelegate.swift */; };
@@ -255,6 +256,7 @@
 		053A784125338669005CD831 /* CustomeHostingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomeHostingView.swift; sourceTree = "<group>"; };
 		0552700B2534DDE600FB636A /* PhraseDefaultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhraseDefaultView.swift; sourceTree = "<group>"; };
 		055270152534E18400FB636A /* PhraseSelectedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhraseSelectedView.swift; sourceTree = "<group>"; };
+		055FA1AD253AEE73009A394E /* CustomAudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAudioPlayer.swift; sourceTree = "<group>"; };
 		05663745253771D3006AC715 /* PhraseListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhraseListView.swift; sourceTree = "<group>"; };
 		0566374A253787B6006AC715 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 		05783DD32531A0BE000F68FA /* Fraza3.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fraza3.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -318,6 +320,7 @@
 			isa = PBXGroup;
 			children = (
 				051CC66F2535FED500FAF2B5 /* AudioPlayerView.swift */,
+				055FA1AD253AEE73009A394E /* CustomAudioPlayer.swift */,
 			);
 			path = AudioPlayer;
 			sourceTree = "<group>";
@@ -991,6 +994,7 @@
 				0523C92A2537C62E00306C5D /* MailView.swift in Sources */,
 				05AB09932531D4D3007FC0B6 /* FavoriteView.swift in Sources */,
 				05AB098D2531AE20007FC0B6 /* HomeView.swift in Sources */,
+				055FA1AE253AEE74009A394E /* CustomAudioPlayer.swift in Sources */,
 				053A783F25334175005CD831 /* CustomNavigationView.swift in Sources */,
 				05AB09902531D4C8007FC0B6 /* SearchView.swift in Sources */,
 				05AB09872531AD87007FC0B6 /* TabBarView.swift in Sources */,

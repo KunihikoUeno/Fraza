@@ -22,8 +22,9 @@ struct MailView: UIViewControllerRepresentable {
     func makeUIViewController(context: UIViewControllerRepresentableContext<MailView>) -> UIViewController {
         let controller = MFMailComposeViewController()
         controller.mailComposeDelegate = context.coordinator
-        controller.setSubject("Contact to Fraza App")
+        controller.setSubject("Contact Fraza")
         controller.setToRecipients(["test@email.com"])
+        controller.navigationBar.tintColor = UIColor.customBlue
         return controller
     }
 
